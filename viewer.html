@@ -13,12 +13,18 @@
     Both must use the same Three.js instance so Object3D, WebGLRenderer, etc.
     are the same class — mismatched versions cause silent black screens.
   -->
+  <!--
+    esm.sh serves correct MIME types and CORS headers for ES modules.
+    Both three and luma-web load from the same CDN so they share the
+    same Three.js module instance (required for scene.add to work).
+    three@0.157.2 matches luma-web's peer dependency "^0.157.0".
+  -->
   <script type="importmap">
   {
     "imports": {
-      "three":             "https://cdn.jsdelivr.net/npm/three@0.157.2/build/three.module.min.js",
-      "three/addons/":     "https://cdn.jsdelivr.net/npm/three@0.157.2/examples/jsm/",
-      "@lumaai/luma-web":  "https://cdn.jsdelivr.net/npm/@lumaai/luma-web@0.2.2/dist/library/luma-web.module.js"
+      "three":            "https://esm.sh/three@0.157.2",
+      "three/addons/":    "https://esm.sh/three@0.157.2/examples/jsm/",
+      "@lumaai/luma-web": "https://esm.sh/@lumaai/luma-web@0.2.2"
     }
   }
   </script>
@@ -127,14 +133,22 @@
     threeScene.add(splat);
 
     // ── 5. Render loop ───────────────────────────────────────────────────
-    // Splat streams in progressively — hide the loader once rendering starts.
-    // Bump to 30 frames so we don't flash black if the splat needs a moment.
     let frameCount = 0;
     renderer.setAnimationLoop(() => {
       controls.update();
       renderer.render(threeScene, camera);
       if (++frameCount === 30) hideLoading();
     });
+
+    // If still loading after 20s, surface a helpful error
+    setTimeout(() => {
+      if (frameCount < 30) {
+        showError(
+          'Scene did not load. Most likely the Luma capture is set to Private. ' +
+          'Open lumalabs.ai → your capture → Share → set to Public, then reload.'
+        );
+      }
+    }, 20000);
 
     // ── 6. Resize ────────────────────────────────────────────────────────
     window.addEventListener('resize', () => {
