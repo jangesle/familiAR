@@ -4,264 +4,8292 @@
   "defaultSplatScale": 5.0,
   "scenes": [
     {
-      "id": "chihuly-green",
+      "id": "chihuli-green",
       "title": "Chihuli green",
       "description": "",
-      "source": "https://lumalabs.ai/capture/A45C9CBA-2ABB-48BC-98D2-4BA19E00B6FF",
+      "source": "https://lumalabs.ai/capture/a45c9cba-2abb-48bc-98d2-4ba19e00b6ff",
       "thumbnail": "https://cdn-luma.com/36df7fd1bd58eddc9074a9922c0fc0f0b6e668c8193ffb8551ccc145327bc664/Chihuli_green_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "higuli2",
       "title": "Higuli2",
       "description": "",
-      "source": "https://lumalabs.ai/capture/BDAA4D01-D633-497E-BAAB-651CADB145EB",
+      "source": "https://lumalabs.ai/capture/bdaa4d01-d633-497e-baab-651cadb145eb",
       "thumbnail": "https://cdn-luma.com/efe44bfe953e29eec9d2aa90aebe19c588524fc90701c448082b863d75c2f96e/Higuli2_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
-      "id": "chihuly",
+      "id": "chihuli",
       "title": "Chihuli",
       "description": "",
-      "source": "https://lumalabs.ai/capture/83434A02-0B3B-41EF-BA01-4DC0DD59B018",
+      "source": "https://lumalabs.ai/capture/83434a02-0b3b-41ef-ba01-4dc0dd59b018",
       "thumbnail": "https://cdn-luma.com/7fe82c9d3a28322228ab40e5377e24f67640498506e6f6b3ad7631207acb3a88/Chihuli_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "foshan-yard",
       "title": "Foshan yard",
       "description": "",
-      "source": "https://lumalabs.ai/capture/67C3D69F-CAB0-4E09-B338-F4C9EEDF5B95",
+      "source": "https://lumalabs.ai/capture/67c3d69f-cab0-4e09-b338-f4c9eedf5b95",
       "thumbnail": "https://cdn-luma.com/2c532aa2f9cbccf8ff950a2c13024b0128e16b634699ed69bc1060b4f4176528/Foshan_yard_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "foshan-bench",
       "title": "Foshan bench",
       "description": "",
-      "source": "https://lumalabs.ai/capture/255E5867-631D-4C51-882C-CA39AFE32FBA",
+      "source": "https://lumalabs.ai/capture/255e5867-631d-4c51-882c-ca39afe32fba",
       "thumbnail": "https://cdn-luma.com/94d66dc394b25f1585831e35cf0abc2960cb6760c1e2c1715e094ce197dfb274/Foshan_bench_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "wishing-tree",
       "title": "Wishing tree",
       "description": "",
-      "source": "https://lumalabs.ai/capture/CF0BDD45-4698-49F8-8036-2A0A68E6DBCC",
+      "source": "https://lumalabs.ai/capture/cf0bdd45-4698-49f8-8036-2a0a68e6dbcc",
       "thumbnail": "https://cdn-luma.com/042ed97325622d51e67373664f5023016fefc6dd1164aaa80e0c52485cff771c/Wishing_tree_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "foshan3",
       "title": "Foshan3",
       "description": "",
-      "source": "https://lumalabs.ai/capture/97248FAA-0B48-4CBB-A148-B175FE0C37EE",
+      "source": "https://lumalabs.ai/capture/97248faa-0b48-4cbb-a148-b175fe0c37ee",
       "thumbnail": "https://cdn-luma.com/4f31122e6cc34eeccddd1164e5b884f13c778cbf5676f436f99c68652f17933b/Foshan3_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "foshan2",
       "title": "Foshan2",
       "description": "",
-      "source": "https://lumalabs.ai/capture/48C7D2B4-38E5-4CBC-8C99-6D502D5BDA82",
+      "source": "https://lumalabs.ai/capture/48c7d2b4-38e5-4cbc-8c99-6d502d5bda82",
       "thumbnail": "https://cdn-luma.com/53050035b4e26fbe47acd21da416d56401a106ea77c0edf5311876e3347a7d9f/Foshan2_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "foshan-yimiao",
       "title": "Foshan yimiao",
       "description": "",
-      "source": "https://lumalabs.ai/capture/E6BB562B-491D-4EFC-BFC5-E2880E0BC7CC",
+      "source": "https://lumalabs.ai/capture/e6bb562b-491d-4efc-bfc5-e2880e0bc7cc",
       "thumbnail": "https://cdn-luma.com/bc132c7024d5421df1d40e9015ab3faf15b48372a4cfe036387cfeafbc799117/Foshan_yimiao_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "baiyun",
       "title": "Baiyun",
       "description": "",
-      "source": "https://lumalabs.ai/capture/3390A915-BA78-471B-9DCC-3B11CE80B940",
+      "source": "https://lumalabs.ai/capture/3390a915-ba78-471b-9dcc-3b11ce80b940",
       "thumbnail": "https://cdn-luma.com/b6ccd1bccdbdc677065270135d38b2364716201871ddf7f07c02ae09677604cf/Baiyun_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "samara",
       "title": "Samara",
       "description": "",
-      "source": "https://lumalabs.ai/capture/EF9D28E8-EDEE-4FF8-8672-1782084B2476",
+      "source": "https://lumalabs.ai/capture/ef9d28e8-edee-4ff8-8672-1782084b2476",
       "thumbnail": "https://cdn-luma.com/934e65c2429e3075b784354ee128cc31f931d25f783423ce843c08d67176c136/Samara_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "gui-temple",
       "title": "Gui temple",
       "description": "",
-      "source": "https://lumalabs.ai/capture/65DC50D6-5844-4DF2-937A-0A7F803FB996",
+      "source": "https://lumalabs.ai/capture/65dc50d6-5844-4df2-937a-0a7f803fb996",
       "thumbnail": "https://cdn-luma.com/daac536a62c0962b08f1a63bdb4a71d21667bac67e2a9fde4dbaf085d0753888/Gui_temple_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "ohlone-farm",
       "title": "Ohlone farm",
       "description": "",
-      "source": "https://lumalabs.ai/capture/5DCD1168-222B-4E39-A655-30ECBA525AE8",
+      "source": "https://lumalabs.ai/capture/5dcd1168-222b-4e39-a655-30ecba525ae8",
       "thumbnail": "https://cdn-luma.com/fc7ea370dffec00ff98c895051945c0488a73cd411f51b8409933446ea069a4c/Ohlone_farm_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
-      "id": "mokki",
-      "title": "Mökki",
+      "id": "m-kki",
+      "title": "M kki",
       "description": "",
-      "source": "https://lumalabs.ai/capture/9CD59749-3493-4DF1-9313-C91F2A4CC585",
+      "source": "https://lumalabs.ai/capture/9cd59749-3493-4df1-9313-c91f2a4cc585",
       "thumbnail": "https://cdn-luma.com/a67f5b88441455a3c290d70e9080552e2f836b6b5700257a621722169b9b0df0/M_kki_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
-      "id": "lumis-wish",
-      "title": "Lumi's wish",
+      "id": "lumi-s-wish",
+      "title": "Lumi s wish",
       "description": "",
-      "source": "https://lumalabs.ai/capture/5A73BCCE-22BF-4425-84F5-B752C46EE044",
+      "source": "https://lumalabs.ai/capture/5a73bcce-22bf-4425-84f5-b752c46ee044",
       "thumbnail": "https://cdn-luma.com/892b27c7f63e0d9358f5d747f35960587daef1ca2252e717970844c4a0ad14a0/Lumi_s_wish_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
-      "id": "martin-gropius-bau-yoko-ono",
-      "title": "Martin Gropius Bau Yoko Ono",
+      "id": "martin-gropius-bau-yoko-o",
+      "title": "Martin Gropius Bau Yoko O",
       "description": "",
-      "source": "https://lumalabs.ai/capture/6A6B1416-F3FB-4C9E-858D-D44CC19D4804",
+      "source": "https://lumalabs.ai/capture/6a6b1416-f3fb-4c9e-858d-d44cc19d4804",
       "thumbnail": "https://cdn-luma.com/2c5f3e9389f29888ddfe1a66cc8350eff61dfe4dfa8bc2f5e8131493720e61bc/Martin_Gropius_Bau_Yoko_O_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
-      "id": "bau-bau-martin-gropius-bau",
-      "title": "Bau Bau @ Martin Gropius Bau",
+      "id": "bau-bau-martin-gropius-ba",
+      "title": "Bau Bau Martin Gropius Ba",
       "description": "",
-      "source": "https://lumalabs.ai/capture/2A580C62-161E-44E8-ACD9-F618B1808695",
+      "source": "https://lumalabs.ai/capture/2a580c62-161e-44e8-acd9-f618b1808695",
       "thumbnail": "https://cdn-luma.com/a965da73d4ec4f8cb3116d919974d04b155e4141f03c5e3da9bac4b1dd62e901/Bau_Bau_Martin_Gropius_Ba_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
-      "id": "palo-alto-art-center",
-      "title": "Palo Alto art center visit",
+      "id": "palo-alto-art-center-visi",
+      "title": "Palo Alto art center visi",
       "description": "",
-      "source": "https://lumalabs.ai/capture/D0DF81BA-83EC-42CE-ABDA-5294198794B0",
+      "source": "https://lumalabs.ai/capture/d0df81ba-83ec-42ce-abda-5294198794b0",
       "thumbnail": "https://cdn-luma.com/8f978757695c260d824723d3064f412f9d27831d358361f57e97f020d78944ea/Palo_Alto_art_center_visi_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "desertx",
       "title": "Desertx",
       "description": "",
-      "source": "https://lumalabs.ai/capture/66646ADF-0A38-4E98-A1E2-D64080F36377",
+      "source": "https://lumalabs.ai/capture/66646adf-0a38-4e98-a1e2-d64080f36377",
       "thumbnail": "https://cdn-luma.com/d56b3a39e4d8c7746d7be9c3c8699356eaca9dd7acd0783fe79e77d55103e274/Desertx_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     },
     {
       "id": "palm-springs-art-museum",
       "title": "Palm Springs art museum",
       "description": "",
-      "source": "https://lumalabs.ai/capture/EAE81F3F-6765-453A-86CD-88B84A0AA69D",
+      "source": "https://lumalabs.ai/capture/eae81f3f-6765-453a-86cd-88b84a0aa69d",
       "thumbnail": "https://cdn-luma.com/37dd64a704a2bc74eaed522328860bc1b782af61ad39105f3b6aa1560d3ce795/Palm_Springs_art_museum_thumb.jpg",
       "date": "2026-05-15",
-      "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0],
-      "splatScale": 1.0,
-      "splatPosition": [0, 0, 0],
-      "splatRotation": [0, 0, 0]
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "joshua-4",
+      "title": "Joshua 4",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/52abb8f0-6dce-4dbe-b0de-b794951b9d3d",
+      "thumbnail": "https://cdn-luma.com/40a2b8952667311a81139d5737b9a7a15e8bfca69df033f7e9507455747c9396/Joshua_4_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "joshua-3",
+      "title": "Joshua 3",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/9d2f0f82-310b-4275-8130-15169e18cdb9",
+      "thumbnail": "https://cdn-luma.com/f631c4541a8707bb765f6dbcb821323dfe6abf6e079fd58cf887e689dd0a4544/Joshua_3_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "joshua-2",
+      "title": "Joshua 2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/9f195405-4ee8-4ece-9902-f4bbf15e52d3",
+      "thumbnail": "https://cdn-luma.com/c3fe9fb92364c257f327914c80130a653b5f0bb20ddf007cb63ba7651ab7fa85/Joshua_2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "joshua-tree",
+      "title": "Joshua tree",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/e15b0306-0612-4d28-b686-3de61730ae66",
+      "thumbnail": "https://cdn-luma.com/623ab5032ab4616bcba70299097d792d2431145e99d9bda88fcad7280941987c/Joshua_tree_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "soulstation",
+      "title": "Soulstation",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/85803677-965a-4059-ae01-aab737b93d52",
+      "thumbnail": "https://cdn-luma.com/6bd5b679bbe25412e123b2cdcfb24e6fb434eb26c74cd36d57f85c1d82a3b3a9/Soulstation_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "deserts",
+      "title": "Deserts",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/69d30dae-35d5-475f-bce3-36c8b1c40744",
+      "thumbnail": "https://cdn-luma.com/1eb8c2f1855a9f2dbbd87b5f6543bde9eb397ceb204f1ec1b0c3006b5ac3dc75/Deserts_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "joshua-tree-2",
+      "title": "Joshua tree",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/cc2ea217-91ce-419d-ad00-e6a40bf653cd",
+      "thumbnail": "https://cdn-luma.com/f498b6ca6143ed0e27bb9019c3bdaabf36bbf723e9289ca7c44df19fcd719b82/Joshua_tree_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "el-capitan",
+      "title": "El capitan",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/fdc252da-3260-4dec-96b8-b31389b6fb54",
+      "thumbnail": "https://cdn-luma.com/6594ba532a423a435b9b3f231d1156f1b79a2581325e62dc295fc96d90efecf3/El_capitan_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "yosemite-2",
+      "title": "Yosemite 2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/71201550-2000-495c-a55e-41f498ef20fd",
+      "thumbnail": "https://cdn-luma.com/f83092710e7699707abd830170e83518e2f4316edf6a1325fcbddb25f01a99b0/Yosemite_2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "yosemite",
+      "title": "Yosemite",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/137516a5-c199-4ed2-beec-e658120532cb",
+      "thumbnail": "https://cdn-luma.com/0dba815ff4c88aa2b11e3cf1abace9449ebc23b1807c001b5fbf68ead849e309/Yosemite_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "bear-valley",
+      "title": "Bear valley",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/305b70da-fad2-48ef-b394-fa6bb05a9a15",
+      "thumbnail": "https://cdn-luma.com/878583bdd31183fc517019da53b27ceed6422b330cf09211a328ca929babdc4d/Bear_valley_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "santa-cruz",
+      "title": "Santa Cruz",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/7f9f61da-dd16-4cf9-bc96-dbe3273b7992",
+      "thumbnail": "https://cdn-luma.com/f74db8c72551cc09dda9e143375bd8e283b450ce1417e25c5006f63049351d9c/Santa_Cruz_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "chun-wing",
+      "title": "Chun Wing",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/660f398a-be86-465c-83c7-18aa0e5f9d8c",
+      "thumbnail": "https://cdn-luma.com/f0ec43d3d7e224529b963dd66970f02105a2fa9038bc429a251898f41a13014b/Chun_Wing_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "baiyun-2",
+      "title": "Baiyun",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/2c3005f2-b5e4-4601-9e72-0217b73962db",
+      "thumbnail": "https://cdn-luma.com/d17cbe483e799a01f5c2a37e3cbf8f616938f96be17ba0f42407dbfc7667240a/Baiyun_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tahoe",
+      "title": "Tahoe",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/8a39e050-3b3c-4644-90a1-a58dffec6076",
+      "thumbnail": "https://cdn-luma.com/9385e934ed50ce4dbcbd0e531d62ef1799e635c6b5e9f3d91a9dfe657ca33dd2/Tahoe_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "icade-dinner",
+      "title": "Icade dinner",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/93b21a12-467b-4d18-8e46-2142ade82bf1",
+      "thumbnail": "https://cdn-luma.com/2dee6ded4d5a1df8dd2cc639a87cdbbe176f016c7b4daf2c74b125f616e83236/Icade_dinner_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "godard-s-atelier",
+      "title": "Godard s atelier",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/27ce3f71-a101-4697-ad8c-f8af939a52ea",
+      "thumbnail": "https://cdn-luma.com/fb2232be64336631bfee04526ee82d9d1809dd8b8459ad1c720f1ce81c48e724/Godard_s_atelier_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fischli-weiss",
+      "title": "Fischli weiss",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/aaca3217-d617-4397-830c-54cf12fd35ae",
+      "thumbnail": "https://cdn-luma.com/74ed495e4219eae94101b371fd802ebdfa82f5ce8a5c4b7d58f2074610a1eadc/Fischli_weiss_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "atlas",
+      "title": "Atlas",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ce3fb0c9-dc42-4088-8762-a71ed3664e92",
+      "thumbnail": "https://cdn-luma.com/7edc6f129589ce42100980a2edb3c6675feb304d8023cfab2e2e16d2b4a51de9/Atlas_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tinguely-formula",
+      "title": "Tinguely formula",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/bb14e8f7-4b07-4a7d-a5ec-109d65b7a11b",
+      "thumbnail": "https://cdn-luma.com/f3864bf24a855d5a5d9ec5abcf86aa0f444f6bb27b3936a37b2d80142fc815e3/Tinguely_formula_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "park-guell",
+      "title": "Park guell",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/6767655c-21ed-4b51-9172-dc76f59218f4",
+      "thumbnail": "https://cdn-luma.com/ca1e99820bdb73466c93c681b8651596eaa60fcaa9db0e407ea6eff31444fc71/Park_guell_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "barcelona-church",
+      "title": "Barcelona church",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/759f29d8-d3fa-4df4-99f4-21c9887a098d",
+      "thumbnail": "https://cdn-luma.com/b3028447f812b5b900061ee240b6d349f349142233df28026a4fe999281c88fa/Barcelona_church_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cave",
+      "title": "Cave",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/17ef31df-6434-45ff-951b-6736c4322633",
+      "thumbnail": "https://cdn-luma.com/ff0fa60a7a909d598cc75ce4995eb45e08daf3fcd0fe5cdf11380860c44cebd4/Cave_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grave",
+      "title": "Grave",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f6ce7d03-2945-436d-b48d-f569d570f5bf",
+      "thumbnail": "https://cdn-luma.com/aa252e82f356bebfbb00d8e64f2a998695c7ccfecbe6c3fa62f2f81b2443d1c5/Grave_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "futurium2",
+      "title": "Futurium2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/e563e5a3-2344-44fe-90de-048ac44424ab",
+      "thumbnail": "https://cdn-luma.com/a2718e0be5b3c77661ea2fc621320296b699e58c2bfde5f955118b490e2ebef1/Futurium2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fururium",
+      "title": "Fururium",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/17302042-920a-4457-92c6-96fdb309ec6f",
+      "thumbnail": "https://cdn-luma.com/af82b9cae72752b6c10950656a289bee6535a136f64aa9f94e5aebda02eec3e7/Fururium_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "anoha",
+      "title": "Anoha",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5398f458-3b76-4d6e-b773-0f6cf1541d13",
+      "thumbnail": "https://cdn-luma.com/8306e0bb8fc5cc4aa03c5bd8ffa22357676a3b7e0e0fe43d158e0422cc109967/Anoha_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "himmelblau",
+      "title": "Himmelblau",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/8022493b-aa1a-4e74-8e71-3bc8c5fc52f7",
+      "thumbnail": "https://cdn-luma.com/50dae66e6e1898ef69e3616e04217f7d9479749e9ac25017697b0a2d00b617fc/Himmelblau_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "dandelion",
+      "title": "Dandelion",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/7e4abb49-b0b2-45b7-9e79-b8c97d648064",
+      "thumbnail": "https://cdn-luma.com/48d00789d74968a35669f0ffa9fcad5169e9251c27ed7e85853ef7e5b6abeebf/Dandelion_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ngeslev",
+      "title": "ngeslev",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/c65b85f5-6104-4f27-84c9-96592f61613f",
+      "thumbnail": "https://cdn-luma.com/036af041945feb5962a9969d4a12c202d93fd7d7590c953d6f1b5efbdb9a2bd2/ngeslev_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pylv-s2",
+      "title": "Pylv s2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/b5fb5ff1-117c-4b78-b02d-32c96c2db05e",
+      "thumbnail": "https://cdn-luma.com/4d427c8e9d0e3c1f5abcb910842e6287f9d40d07c12b654b71b1a441b5643f72/Pylv_s2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pylvas",
+      "title": "Pylvas",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/bddf2cd6-daab-4103-96ca-c67c597eb79a",
+      "thumbnail": "https://cdn-luma.com/e551e94c6742d1f89ac4f03d74c6b33ea709189c71c3331526b03e2bfb6a5d75/Pylvas_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "vanhis",
+      "title": "Vanhis",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ca754a5d-d85d-4a86-bfa2-c235ef3d50d4",
+      "thumbnail": "https://cdn-luma.com/96b2c390aec2c9f1e2de4b105c908c1c79e1639f1f03dfa7b70fb9fef91c14df/Vanhis_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "muumimaailma",
+      "title": "Muumimaailma",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/6352fd22-4ff1-4086-a670-ce63de846d85",
+      "thumbnail": "https://cdn-luma.com/60bb2c602bc525b97c732caad3c65b0d69fd7d6dd252ae865fb262538f513eb7/Muumimaailma_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "suvisaaristo",
+      "title": "Suvisaaristo",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/8932eef1-9161-4e9b-b29d-f5c5f8516c6c",
+      "thumbnail": "https://cdn-luma.com/34324704ae10edab1aba04ce6a35165aa18328ac67940a16cf0520db21e2906e/Suvisaaristo_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "aaron",
+      "title": "Aaron",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/07d5ea08-5f57-4a64-9b68-59e375fa135c",
+      "thumbnail": "https://cdn-luma.com/8de893d051f25b0a7b965b05e560b34bd830af1933b1f835ec3ede5f6591230c/Aaron_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "teamlab",
+      "title": "Teamlab",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/fea0fb66-710a-4325-9d32-6d25fab37a31",
+      "thumbnail": "https://cdn-luma.com/2394ec092add75c9897aa8e4b264863acc9dbb7e69945729548762949a9a1953/Teamlab_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "teamlab-2",
+      "title": "Teamlab",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/91b9a67d-4dc4-4164-85f9-71826d5bb2f3",
+      "thumbnail": "https://cdn-luma.com/283bb26ac665202c7b255206177250b352db16e2a9adadcef63aadd7d5a41f79/Teamlab_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "sakamoto",
+      "title": "Sakamoto",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1e2596e4-e0bb-421b-b5cf-936abd9ccb8a",
+      "thumbnail": "https://cdn-luma.com/9b4c05ae13dd4e23cbfecd303c1ff2741fce9a311a8525938646c65499acbc56/Sakamoto_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mall",
+      "title": "Mall",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/bacb14bd-9967-4d13-bcf5-74c50aa0081b",
+      "thumbnail": "https://cdn-luma.com/ca93582a2e8a2e69a55927d1fa027df97a97d14e2f86ee9490604818da9fd967/Mall_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "teamlab-borderless",
+      "title": "Teamlab borderless",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ed0f783e-2192-4f3e-a9eb-d95199bb5609",
+      "thumbnail": "https://cdn-luma.com/fd45a7b3cc8074668f2a78b4192411e49c93c8e534c54b9a57dda0eacdf075f1/Teamlab_borderless_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ichijo",
+      "title": "Ichijo",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/368b7fed-a876-4a19-a6cd-2c4135003de3",
+      "thumbnail": "https://cdn-luma.com/3fdb7cb82b46d5b961e589056841e00e435714b7d7ce8bf24caeb4b235070ef1/Ichijo_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tearoom",
+      "title": "Tearoom",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/82a60f84-8d39-4cb4-bcdc-56c9da5a5368",
+      "thumbnail": "https://cdn-luma.com/75f4fcb63fe104b80592af5ee170633a2ebe7b0d76988db0c9cf9c673c12ad8c/Tearoom_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "temple",
+      "title": "Temple",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1b75a420-af8e-48c1-a458-4d94a1ea2427",
+      "thumbnail": "https://cdn-luma.com/f788ca26ee71634e5c798ca81a291dfe33449edb72bd385d5722e178ad526345/Temple_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "temple-2",
+      "title": "Temple",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/c58727b3-345a-4685-9284-81c687617c29",
+      "thumbnail": "https://cdn-luma.com/5e15fddcdca704c2f4d54791aac652014afba5df9521a68894c65f06ff2bdc9d/Temple_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "temple-3",
+      "title": "Temple",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/6d1aff2e-c81e-4371-bc92-b1c1986469bd",
+      "thumbnail": "https://cdn-luma.com/69189f8241937f9bdaef31ef4f792ae92299f30d1e17c86eae1f0d8a51ddb413/Temple_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "women-s-temple",
+      "title": "Women s temple",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ff4df291-41ca-4e98-884e-9ca812bac294",
+      "thumbnail": "https://cdn-luma.com/83457b6bcd76f1202869fc0ceee3d976663ecf2f092586974fb778886e01b11b/Women_s_temple_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "poiesis",
+      "title": "Poiesis",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/d9f1086c-6179-4925-aaeb-cb989a525155",
+      "thumbnail": "https://cdn-luma.com/45840a47ef9090f9bc5c3f4460baaa88b1b176ca249d6d52d7fd4886532e08d9/Poiesis_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "temple-4",
+      "title": "Temple",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/03a50123-eba8-4707-952f-227e4cbb06d7",
+      "thumbnail": "https://cdn-luma.com/9ff50d2c53c63ba6147d39cc082d67aace112330f551aadbe40aca66856e0e4c/Temple_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "moerenumatetra",
+      "title": "MoerenumaTetra",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/b4852929-6a6c-4e59-bba8-e982a6f9d44b",
+      "thumbnail": "https://cdn-luma.com/25cc3f8b457d891e69c44284a37f0cfc73ed3686ce6e11d3db6d2099ee60a8f6/MoerenumaTetra_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "snow-storage",
+      "title": "Snow storage",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/74d9c5a4-ec17-4a38-8c96-dc3efdce8a94",
+      "thumbnail": "https://cdn-luma.com/59ff905508166fd59fe8bb6dff677fe47011246154d5b43677da11c34c4c96fe/Snow_storage_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "melting-ice",
+      "title": "Melting ice",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f7a8f292-1f64-45e2-93d7-3b63347bec0a",
+      "thumbnail": "https://cdn-luma.com/801866a1352c0da77fcb9db9fce2b55ad0cbac01581e6d188473314a5fd71ea0/Melting_ice_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "aoao",
+      "title": "Aoao",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/a9fcd1d0-4b08-47ca-b25b-0b01678b2ce0",
+      "thumbnail": "https://cdn-luma.com/86ffe6159d66060263ab94bc52ceb94fc7fb6e42acee10c48487057a076c6927/Aoao_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "plus2",
+      "title": "Plus2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5a423874-f2bd-4b81-ba65-7e0ed8a18a53",
+      "thumbnail": "https://cdn-luma.com/b49e934461c1d61a434e21b06f6c853d516b8eaf06ed371b79509030d631f578/Plus2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ice-block",
+      "title": "Ice block",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/53d2b9b7-11fa-482b-bf3f-f845a659aea7",
+      "thumbnail": "https://cdn-luma.com/889729ffb90fa867758292e8fcf7a95af10f3af1f49ad0f4992d00df22732bd1/Ice_block_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tenjin-yama-2",
+      "title": "Tenjin yama 2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/afb25d17-ef53-4f3a-a86a-8af455a239c9",
+      "thumbnail": "https://cdn-luma.com/dc6c73bb552945edada1064e60aaaec9edccb89c7bf91b849ff07d20a91e8ac3/Tenjin_yama_2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tenjin-yama",
+      "title": "Tenjin yama",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/36ab098f-3a48-4802-8c7f-307c4a316fcf",
+      "thumbnail": "https://cdn-luma.com/f566b9cda9e452ccb89b7c74bd1a2bced25648774097f15ed3cab7f245ca04cb/Tenjin_yama_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ice-storage",
+      "title": "Ice storage",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/67c76076-5bda-4d27-b954-6a0a0e9603ed",
+      "thumbnail": "https://cdn-luma.com/d085c387bc06f7831b475bbc2c79e197f7026c2134baf7540a5b60a7a0b2190a/Ice_storage_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "moerenuma",
+      "title": "Moerenuma",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/7cc35e46-cde4-4b4d-9cca-babd0963e88a",
+      "thumbnail": "https://cdn-luma.com/5d1b3ab1ded3d36876f4e87d227b9be548af261d985ece1b1adf3f00e91b9062/Moerenuma_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leo-s-party",
+      "title": "Leo s party",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/30052d9b-a86e-43d1-9f2f-cdecb1a943d0",
+      "thumbnail": "https://cdn-luma.com/245e8db6adb2c10794a4abfa26ea1a5d4da34991f43585cd0b28be4e90a40ce0/Leo_s_party_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "alex",
+      "title": "Alex",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1aeb62b7-1b69-45b4-bfb5-dcecae9859bb",
+      "thumbnail": "https://cdn-luma.com/e71d76623ded71b852a32523a8199e787c8c00b46252d9fa1ff2be543ad3a5b0/Alex_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "alex-2",
+      "title": "Alex",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/03c69bec-f3e1-48a4-a81d-ae590d496d03",
+      "thumbnail": "https://cdn-luma.com/f05412d73c7b4959462276e3640d375cdac1b5c1bc61f6e70e23fb6b987b3528/Alex_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ohlone-playground",
+      "title": "Ohlone Playground",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/43e8edb4-d020-478e-8eeb-8bee151c24e2",
+      "thumbnail": "https://cdn-luma.com/961776f5372f5b0a595766354d76326c86e064d470dfc3e45a25ef8c934e9a18/Ohlone_Playground_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "goal",
+      "title": "goal",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/d72e6820-db62-498b-937c-376d34d68665",
+      "thumbnail": "https://cdn-luma.com/9ceb7ba131a30f7458d4b107033f2480ddbd8e0b0a8d0e8c44f02e7a1c64a450/goal_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hotel2",
+      "title": "Hotel2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/c6a1d217-62ff-4d0e-8ee8-082cc8a95ec0",
+      "thumbnail": "https://cdn-luma.com/59711689c48cacd97809ef82d2a95511f993f03cf70eb0c9a9054465d4b82db0/Hotel2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hotel",
+      "title": "Hotel",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/bd36fe43-1d24-4cb2-916b-c1739fdc4aa2",
+      "thumbnail": "https://cdn-luma.com/baf9844360285420273063279acec5da738abc006289e0b805103a8550bd76e8/Hotel_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "villa2",
+      "title": "Villa2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/40ea9c1c-db70-4bde-98c5-d759984a8b08",
+      "thumbnail": "https://cdn-luma.com/75e50794824344bf706047e188576f59a60fba60b3ba62e05139de866a1b2a51/Villa2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "villa",
+      "title": "Villa",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/53c5b3e8-5613-4283-89a7-2f8a6aa5340c",
+      "thumbnail": "https://cdn-luma.com/6e8963b248e16a1469e7d6cf98e7a3ec940aa457902bd4ef515d799c4d7d3c4a/Villa_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "bridge",
+      "title": "Bridge",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/6adfcaaf-5d8b-4679-95b4-d8a267316e6a",
+      "thumbnail": "https://cdn-luma.com/bc4e855cf5311ee282904c4da0780bfeaa5b3f40c5c9dda64ea3d743a433a8b8/Bridge_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hotpot2",
+      "title": "Hotpot2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/4c4cf135-3e0e-4f3f-8780-bda60dd47dd5",
+      "thumbnail": "https://cdn-luma.com/b2ac8df90839b01d02578a7b3773200390b1cd6e10c0a7c69df97978759ce0b5/Hotpot2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "temple-5",
+      "title": "Temple",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5b67d272-e5ff-429a-999b-f8122651e442",
+      "thumbnail": "https://cdn-luma.com/f7811e79b350c3febf96c1a0d99703ac44520bacd713c340534c0c4b347a92a4/Temple_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "huoguo",
+      "title": "Huoguo",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/55032515-675b-4804-8145-4002a0a384e2",
+      "thumbnail": "https://cdn-luma.com/2f67728f7229d8c12b160656b2e0205c9e78082888b6174df08d27b046096df6/Huoguo_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "smile",
+      "title": "Smile",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/de424e1a-15bc-4fac-8285-5145b6505c61",
+      "thumbnail": "https://cdn-luma.com/6adfe9f071bc20ca4610b1bf97a51e22b871dc8348e0d4e4bc9b936241923425/Smile_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mini",
+      "title": "Mini",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/365c8f71-0779-4eaf-b977-9acbf3628fc5",
+      "thumbnail": "https://cdn-luma.com/95d1a08819f3b813eeb0fd3ef4bd7bc0e9283694ff89731289601b6edd2c5a4a/Mini_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "playground",
+      "title": "Playground",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/622dc417-8821-4c57-aea6-7d5a3495fec4",
+      "thumbnail": "https://cdn-luma.com/aa3af39f155daeae336496e9fd0b06151cb043875c92f44d2ee6912d73308f6b/Playground_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "temple-4",
+      "title": "Temple 4",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/79e6b672-98cb-470a-9a14-6dae272a4dc9",
+      "thumbnail": "https://cdn-luma.com/8fa9fea90edfc3fdeb9b1bfcb33d964ff9b9a57fc7f2e3ba509412ecbb374818/Temple_4_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "temple-3",
+      "title": "Temple 3",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/483cfc98-bd21-46f1-9677-95285dc3daeb",
+      "thumbnail": "https://cdn-luma.com/4f0188ffe29158b59382dff4a8a4d3d59f2f4d2b9654363ea5d03da0e5ed1578/Temple_3_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "temple-2",
+      "title": "Temple 2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/2da8f35b-83e7-488e-b55f-1607fd7687c6",
+      "thumbnail": "https://cdn-luma.com/546fbe7d9175555a1d4e2fb139a3b439e06e499bd7b4a8aa0310e438968408c7/Temple_2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "temple-6",
+      "title": "Temple",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/64718f0c-21e7-42fe-8fd6-3238262a203a",
+      "thumbnail": "https://cdn-luma.com/e2b5df35ddfa9e7777730a248a0722023eeb592dd551a659821bd7affe43f240/Temple_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "art-museum",
+      "title": "Art museum",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/cb266526-2004-4e9e-a62f-0bd049513fa8",
+      "thumbnail": "https://cdn-luma.com/ab268dc660e14808041e9519f1ae331fbf69df1dc6f3773b3fcd6bf62fc9f50c/Art_museum_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gen-z",
+      "title": "Gen z",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/eb00f01f-1c0a-43d7-85b4-44bd026e14f8",
+      "thumbnail": "https://cdn-luma.com/69ba02684df7b7abf7b702571be96956f1b9fef68518813a42bfdce1b3dd02cf/Gen_z_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "qingshang",
+      "title": "Qingshang",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/17805602-1c3e-4587-9017-0598caa18508",
+      "thumbnail": "https://cdn-luma.com/a9078cdf2e2454d402313cb89149d705fbe77141041fb820b50e7577410699bb/Qingshang_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "chongqing",
+      "title": "Chongqing",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/843616fd-f431-403a-937d-b4da4472e179",
+      "thumbnail": "https://cdn-luma.com/a6bc3d05aee3f5738689355261f5ab38011314da6be59d634d8afb4c28d56119/Chongqing_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mumian",
+      "title": "Mumian",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/3d663b43-ff07-445b-9023-bdb3e978f30a",
+      "thumbnail": "https://cdn-luma.com/23c2141e220e98e4cb2ad99b2f313b520883e5396a5cc12d7e453a575a1bb3d8/Mumian_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tsinghua-campus",
+      "title": "Tsinghua campus",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/a47fe873-f98d-4868-920f-7da4e6ff4592",
+      "thumbnail": "https://cdn-luma.com/0dfdd1b2345266fa2e209498358aa84feb57f42d6295b8f294f0dba32c6e4c41/Tsinghua_campus_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mumian-2",
+      "title": "Mumian",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/c5511836-73f6-4036-a3cf-6f6c297b0cc1",
+      "thumbnail": "https://cdn-luma.com/a2a1790b1a3171b15457eb2aa11907198670a33d85df2d272e95ca8f2afac2c5/Mumian_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "market",
+      "title": "Market",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/13cd34ab-eb63-4eb9-a357-7725b1d260f0",
+      "thumbnail": "https://cdn-luma.com/4eaaab2854620ae2030a166fb6a033cce4f41815764611634b273d94ac8023a6/Market_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mocaup-3",
+      "title": "Mocaup 3",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/0003ed2c-d186-430f-948e-cda6e1545ee5",
+      "thumbnail": "https://cdn-luma.com/612bcca2fc3b4c590137de0387677afc261d5ee03cc3dbf94ee4e7f11c883cb9/Mocaup_3_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mocaup-close",
+      "title": "Mocaup close",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/a33425ca-ec78-43a7-ac26-d5f70eb82641",
+      "thumbnail": "https://cdn-luma.com/093a95f8c275d4f37ce61f6ec0ec41d999a70ff21d02a76aa51017f649bdfe8c/Mocaup_close_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lunch",
+      "title": "Lunch",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/28f12e9a-8c88-4546-a3b4-c2a424c04801",
+      "thumbnail": "https://cdn-luma.com/d869b14c18f2628baa8a737d5aad51bdcc419823e1aae4c6f56c85b939bcceae/Lunch_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mocaup",
+      "title": "Mocaup",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/b99f73e9-3bda-45c3-a660-7311e7aa1c04",
+      "thumbnail": "https://cdn-luma.com/4f1a5f7b1c0abb39d1c1a69275683c7765196b22afd8abee392af77a3a232582/Mocaup_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mumian-3",
+      "title": "Mumian",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f2aea311-e2e8-4850-9a10-0f92e1e30956",
+      "thumbnail": "https://cdn-luma.com/229b5cb44ffb96a95f6b120ca5d8bd49dcf1362087554b353a91193e57dc924d/Mumian_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hong-kong",
+      "title": "Hong Kong",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/7e74570d-5a60-405c-9803-fd54deffba22",
+      "thumbnail": "https://cdn-luma.com/e94b591558f3d95e1a81cc693b42300a4eba6f56223c46a51e6f7e60103ab113/Hong_Kong_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "strait",
+      "title": "Strait",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1789875c-afc3-464d-be7b-185e90d0b300",
+      "thumbnail": "https://cdn-luma.com/9dcc85ff602f08d9db99ea381eba12767c02ead6514074e2c9e4e7ab38c8722e/Strait_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cat-bar",
+      "title": "Cat bar",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/456e1fc5-1e47-4845-b84f-5351b516b440",
+      "thumbnail": "https://cdn-luma.com/ba21aaa1e56a22b4755c853da45a9f0183e0b543cc8292c5d93f5b251939ab58/Cat_bar_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "the-peak",
+      "title": "The peak",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f6291c1a-21f5-440b-88bb-552dca9b56ff",
+      "thumbnail": "https://cdn-luma.com/40c8e44599232bf5122b35a4e803e527ec3f57f305721a16a6079ee8666253e8/The_peak_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "airport",
+      "title": "Airport",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/4805a0cc-9a52-4c66-80b6-3edb5491499e",
+      "thumbnail": "https://cdn-luma.com/0ebb8a4d21d802227f140bbf5c5e57b8576cfe69b99b25eded7aa0d61088e27a/Airport_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hutong",
+      "title": "Hutong",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ba87e1b0-5811-4611-a4e1-473a501fe0d5",
+      "thumbnail": "https://cdn-luma.com/7bbbf63eb9f1b116d10f350e87bee77311460d93f5259511d00e9e4aa1408a13/Hutong_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "playground-2",
+      "title": "Playground",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/337bc2d3-52df-482f-9e9f-645a6111a358",
+      "thumbnail": "https://cdn-luma.com/1faaf8acf5f023713e1968b456c4b4d55ed042c50fbccaa8166f8c4c1d566e09/Playground_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tsinghua",
+      "title": "Tsinghua",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/b267ccea-52ff-4ae3-9ee9-13d5f48f6e1e",
+      "thumbnail": "https://cdn-luma.com/0a9f03b404e2dbf100a5302e3b40f7532be65978c3e1b31f3eb596673d4d6479/Tsinghua_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lake",
+      "title": "Lake",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/20410c99-8200-4697-b470-089da39aa369",
+      "thumbnail": "https://cdn-luma.com/e57e9fc17e1086dbd779b879c3f9649a2e099bd4e5a890ab827a1ce9056bff30/Lake_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "forbidden",
+      "title": "Forbidden",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/0e91a2c5-1dc8-40ed-b17f-55c39e1d4b1b",
+      "thumbnail": "https://cdn-luma.com/47f63e1210498f55d6f405d4530c75fc6b8a16397e400e80d5517e436a9580a8/Forbidden_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "beijing",
+      "title": "Beijing",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/bb109e7d-1c49-4747-8e66-437d25854723",
+      "thumbnail": "https://cdn-luma.com/43b75cf29b0b1c404375fccac6932f7a4ec0e003fcda5655b524aec00f036491/Beijing_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "forbidden-city-2",
+      "title": "Forbidden city 2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/e6e92a3d-da17-4c1b-9dd1-1c29c5ba7514",
+      "thumbnail": "https://cdn-luma.com/6dee103aeb0dd50067e7ef3d893ada5c065809a587deb26cef1b4187a0f31449/Forbidden_city_2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "film-museum",
+      "title": "Film museum",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/73d2f127-cda7-43fd-b398-bc69ab40f611",
+      "thumbnail": "https://cdn-luma.com/eedb8647b4e88be1359ee8b98459848188e246c726859035712b0a40fb3a6660/Film_museum_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "forbidden-city",
+      "title": "Forbidden city",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/3c73b9de-578a-490c-9dac-935fe2a21598",
+      "thumbnail": "https://cdn-luma.com/0d0f5c686b56e8b43554d8185c6ed69134b691f7b31cba362256930cac74c9ab/Forbidden_city_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "masonic",
+      "title": "Masonic",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/a6cf6ad7-a999-4aa0-ae18-d8061fabda0f",
+      "thumbnail": "https://cdn-luma.com/add22020ffb32c746f26d8fbff7663d132f5d74604d663ae51a0678d67e671c0/Masonic_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ohlone-2",
+      "title": "Ohlone 2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/a3e98bde-5832-4153-ba6e-6e026e883a08",
+      "thumbnail": "https://cdn-luma.com/5099ba2686ccdb7b3ed75152897f072202fd1122ac42750a540bb705bfddafa1/Ohlone_2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ohlone",
+      "title": "Ohlone",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/d8df753f-c78b-4b8c-8e55-d784736318d4",
+      "thumbnail": "https://cdn-luma.com/9b049ddccf2061fed35a5d986db19b7ca8ffa997326929d78912d41a1bdf47c0/Ohlone_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "golden-gate-tree",
+      "title": "Golden gate tree",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f2efef83-a4de-4573-b5de-d0b7ca85f043",
+      "thumbnail": "https://cdn-luma.com/dc7fc359dfe7d9e7d34f9b411e15279a5b3a3b4ce95c5206f561093a985a79df/Golden_gate_tree_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mills-college",
+      "title": "Mills college",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/19c3ae33-edd8-4c4c-92e8-bbbc406103cc",
+      "thumbnail": "https://cdn-luma.com/9912ac3c52ddd315fec8e95d965a363e699f9f46fe78daaa5cee3146317432ab/Mills_college_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "castle-rock",
+      "title": "Castle rock",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/c4be23a1-ace4-4720-b6b7-2fe39eb52886",
+      "thumbnail": "https://cdn-luma.com/d4d6c61b51d1b1b932b7636d43403f94a5dd856d6c82350310ce3d79aa41e250/Castle_rock_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "no-people",
+      "title": "No people",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1b1a4566-dbf1-47c3-9c4b-d1a657cff1ef",
+      "thumbnail": "https://cdn-luma.com/ff2d37cb87c1aaeb07b13c8fa4ead7dd21140658d04472f8d466e3d32f7654e5/No_people_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kids2",
+      "title": "Kids2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5197f0a4-6cab-4ab1-abf1-5fc593b0db77",
+      "thumbnail": "https://cdn-luma.com/9cc7ef328319a13a9f20bc919505f36fceec0c34b690fe8f9b813ccc66d9d519/Kids2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kids",
+      "title": "Kids",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/73da9693-7b35-4177-8b7c-35f04a0a2818",
+      "thumbnail": "https://cdn-luma.com/fc00a3ab7e103683870792ae71498cbcb8b84048bdcec911efa8467f61e08d46/Kids_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "yoga",
+      "title": "Yoga",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/a88653bb-0c3b-45f1-bc65-dce836a3e9c1",
+      "thumbnail": "https://cdn-luma.com/3fdd1349f386efbc8c8413f6e19b5f8b3d3378a4add236ac25533789b57d138d/Yoga_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tree",
+      "title": "Tree",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1507b3c7-f764-4aa5-b2f1-5c66bbb5ccea",
+      "thumbnail": "https://cdn-luma.com/8b2da876a4cff8cfc4cc8f25316220b4876a6f6889396eaaa40a26a1a5d6c043/Tree_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "stan-arts",
+      "title": "Stan arts",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1e8f65fe-e883-436f-a3b5-d0ea1ea0ee11",
+      "thumbnail": "https://cdn-luma.com/4a2c318711f94df3799a83df8294d7730859c9796b2a200f7f36c8005b6df00c/Stan_arts_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cantor",
+      "title": "Cantor",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/2d8d552a-d74d-4f19-9153-1c12f355b0bf",
+      "thumbnail": "https://cdn-luma.com/9d07d0603cf9a37520db80c2cb0c7e04a9e0777a7d8d35bac4e49b3ab1b2975f/Cantor_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "path",
+      "title": "Path",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/02d961ca-6927-4c93-be47-169c3cbbdb54",
+      "thumbnail": "https://cdn-luma.com/792199742bc097b19fe5c2364b3094e44149d5168156e0ca626f9c47db372dae/Path_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "garden3",
+      "title": "Garden3",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/6654f817-a1ab-43e8-9a5b-fb531c5a03ee",
+      "thumbnail": "https://cdn-luma.com/f9f4f7d995c56bd4cca63146b9f9208b82dc15cd95e5f6291531be88e31d70a9/Garden3_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "garden",
+      "title": "Garden",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/092bb0f9-893a-4b78-ac02-216ae593972b",
+      "thumbnail": "https://cdn-luma.com/958ed90404329926611b2cdb57eb69dcbd2335ceca264c27fbe3c964d4ea4d49/Garden_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "bridge-2",
+      "title": "Bridge",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/660e9807-544e-4421-8147-7aa5e6dcee68",
+      "thumbnail": "https://cdn-luma.com/919000499a52f5800d76938cbf6876de66708db9bb0410285f01e24621dfdb99/Bridge_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "japanese-garden",
+      "title": "Japanese garden",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/36c372f8-28e9-4684-afd2-a0698e906ad1",
+      "thumbnail": "https://cdn-luma.com/24078474496b7c8d0db7886d80db672c326ce033f52666b1979b27f49f49edd4/Japanese_garden_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "yard",
+      "title": "Yard",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/c5fbe610-2605-4e6c-81e8-9740515c7ea4",
+      "thumbnail": "https://cdn-luma.com/d95b72e68fad9f508e7fc4002fc8dd25561d0ed64228632138d533ff40de859b/Yard_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "downtown",
+      "title": "Downtown",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1e644344-2038-4f6f-bd50-10605e5025a3",
+      "thumbnail": "https://cdn-luma.com/6ef9944fb7d0efffdea0ed6c316908967ea64462e851b9810ea1ccd42c3adda9/Downtown_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tennis",
+      "title": "Tennis",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/56e1179c-5df3-41ae-addf-1ad2b05f2875",
+      "thumbnail": "https://cdn-luma.com/96bf7a9dcf996d4580fab1702bc504c13fa367c264db91b754526de4802b52ea/Tennis_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "r-yksopp-2",
+      "title": "R yksopp 2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/acdd1991-26bb-4224-9343-6446e7d009a1",
+      "thumbnail": "https://cdn-luma.com/2049f8798ea9a177f0cd41b480d4af8b5fa6e99a029c3a30e036aaad0bfb4e0c/R_yksopp_2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "r-yksopp",
+      "title": "R yksopp",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/7e8c6f32-950e-4a4f-95bf-d2b467d96fa8",
+      "thumbnail": "https://cdn-luma.com/3e0ccc7e8a477b99593e066da699c326fd30622ddf6cad34ff4709101697d181/R_yksopp_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kirnu2",
+      "title": "Kirnu2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/aac08d32-6778-432d-ad2d-251c42a7d639",
+      "thumbnail": "https://cdn-luma.com/48e25fdac2d0d13239eeb7900ce854d2deb89edfa470fc4f53c57d51d97791b9/Kirnu2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hiidenkirnu",
+      "title": "Hiidenkirnu",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5e5d8552-711e-4c77-916b-b848e7717972",
+      "thumbnail": "https://cdn-luma.com/31c58240ad373956a5554ba565d9ec113e1e30945a9fb8034ce8e66806f6250a/Hiidenkirnu_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pato",
+      "title": "Pato",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/39990ab2-fba0-4748-b371-9f572ece7824",
+      "thumbnail": "https://cdn-luma.com/5783c6b8cca5da745088226bb5534206d9fa928833814cf399791cdafa3ed8f9/Pato_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "imatra",
+      "title": "Imatra",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/15f50fb7-ebaa-4b72-a28f-56cffe96a602",
+      "thumbnail": "https://cdn-luma.com/c75f4b6cdc450cc95486266daeca14dfda1f540a268aada2a7593dacae56aeb3/Imatra_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kirkko",
+      "title": "Kirkko",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f528315f-302a-4315-9b6f-a52b990b3def",
+      "thumbnail": "https://cdn-luma.com/1b92e513c7f49f429c0b1aa6ab20eccdc0471a5c6cbe1fd05a2ebbede27a42e7/Kirkko_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "silta",
+      "title": "Silta",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/d238cc36-609f-4058-aa5a-e08573c7d47a",
+      "thumbnail": "https://cdn-luma.com/a3bd20fc37269848db7ce606c8dde76cfe5c3edc35c9a1092f4f8388462c77c7/Silta_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kota",
+      "title": "Kota",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/67ed2486-176a-4c50-b8b0-1552ef032326",
+      "thumbnail": "https://cdn-luma.com/b70dd2eacc2e38d1ac4677aba35003e01927acc58d69f9f9467753534ee2e568/Kota_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "aamupuu",
+      "title": "Aamupuu",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/660ac5a0-0bbb-43b9-af16-149a780c1843",
+      "thumbnail": "https://cdn-luma.com/612af1df553696a2c7ef2cfb1f684ee312393f2161fc8298ba782917088bccca/Aamupuu_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kullaa",
+      "title": "Kullaa",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/8fd4981e-3e02-44f1-8c69-3b17762a63ce",
+      "thumbnail": "https://cdn-luma.com/795262641a95b99ef0693246e990373dda82ad7ad4563ffcefa42880b30e5f20/Kullaa_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "aamu",
+      "title": "Aamu",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ecf7c4e2-d6f9-43c4-aadd-beb0bb520e04",
+      "thumbnail": "https://cdn-luma.com/48fd572a877a97fe97673e6f568c3d476e7700690dbf9f2408dae74ee636e811/Aamu_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "yka2",
+      "title": "Yka2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/39b887de-cab8-433d-b46b-850ee67edeaf",
+      "thumbnail": "https://cdn-luma.com/567f3a725cef3bda1b88ec2d14719e2c0fe56c49dda285cde775b1a463163c83/Yka2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "yka",
+      "title": "Yka",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/2719ad4e-1d95-43a4-94a5-3f73607bbdcf",
+      "thumbnail": "https://cdn-luma.com/feadaf2e16c62bc96068db8a4baeb02b6b6cb74dbe154a39ef5a99134ebc0de5/Yka_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tal-pool",
+      "title": "Tal Pool",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/63014d77-ca2b-4c4b-b069-8314d87b880d",
+      "thumbnail": "https://cdn-luma.com/09746b0b4d961eea5a959ffee2487386c16724975d36fc113b9500407c94e179/Tal_Pool_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "41e167eb07cb38879fb5c0198cfabf935a807990ef390b0a2852b2e65f62eb4e-jpg",
+      "title": "41e167eb07cb38879fb5c0198cfabf935a807990ef390b0a2852b2e65f62eb4e.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/91dcd2ea-2f3f-4fbe-a3ab-01e16c203200",
+      "thumbnail": "https://cdn-luma.com/41e167eb07cb38879fb5c0198cfabf935a807990ef390b0a2852b2e65f62eb4e.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "0aeb75d925157dde0677edbe99e31e0f8ac480cd9009134f30b29aec765e145f-jpg",
+      "title": "0aeb75d925157dde0677edbe99e31e0f8ac480cd9009134f30b29aec765e145f.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/3e9e294b-66f3-4545-80cc-188de057c211",
+      "thumbnail": "https://cdn-luma.com/0aeb75d925157dde0677edbe99e31e0f8ac480cd9009134f30b29aec765e145f.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "3860a0417f8d064eb1bdd117c1eda0ca27216cd69c7b51bc0f3664f0f525c918-jpg",
+      "title": "3860a0417f8d064eb1bdd117c1eda0ca27216cd69c7b51bc0f3664f0f525c918.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/7e3c1bab-ed63-45fd-8d78-cfe750b3141d",
+      "thumbnail": "https://cdn-luma.com/3860a0417f8d064eb1bdd117c1eda0ca27216cd69c7b51bc0f3664f0f525c918.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "d089594642cd46acabdf66c7eb232a8b8f812962a4eb9d4f5aa2a97b206c38e3-jpg",
+      "title": "d089594642cd46acabdf66c7eb232a8b8f812962a4eb9d4f5aa2a97b206c38e3.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/81930439-a3c5-47a3-9eb7-d07b619adf05",
+      "thumbnail": "https://cdn-luma.com/d089594642cd46acabdf66c7eb232a8b8f812962a4eb9d4f5aa2a97b206c38e3.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "38c58ac574c2ddd9e7b466c348be6ebe8defea93005bdbbdd4f6fbb52ee8dd4f-jpg",
+      "title": "38c58ac574c2ddd9e7b466c348be6ebe8defea93005bdbbdd4f6fbb52ee8dd4f.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/750fa721-1667-407f-83e5-daf8596dcc00",
+      "thumbnail": "https://cdn-luma.com/38c58ac574c2ddd9e7b466c348be6ebe8defea93005bdbbdd4f6fbb52ee8dd4f.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "842e9799050fcd376c5d03c01638ae33a2d20999b32b933ebb8e4d34a5781730-jpg",
+      "title": "842e9799050fcd376c5d03c01638ae33a2d20999b32b933ebb8e4d34a5781730.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/58da1427-af51-42aa-84a1-f57ad4c4b0c4",
+      "thumbnail": "https://cdn-luma.com/842e9799050fcd376c5d03c01638ae33a2d20999b32b933ebb8e4d34a5781730.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "0542738271b7b18d4a2d4134e171aafc19f07f171f69d8ea4c6847c06466bd25-jpg",
+      "title": "0542738271b7b18d4a2d4134e171aafc19f07f171f69d8ea4c6847c06466bd25.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/0a9065e4-0a8c-4b68-8f27-76a927381186",
+      "thumbnail": "https://cdn-luma.com/0542738271b7b18d4a2d4134e171aafc19f07f171f69d8ea4c6847c06466bd25.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "31555a8b0508f6d0dfa1b90ba4f140f9df4377c17e59ef794afa403053e79736-jpg",
+      "title": "31555a8b0508f6d0dfa1b90ba4f140f9df4377c17e59ef794afa403053e79736.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/97393cb1-3bfb-4707-a4f1-a10b7c2419b5",
+      "thumbnail": "https://cdn-luma.com/31555a8b0508f6d0dfa1b90ba4f140f9df4377c17e59ef794afa403053e79736.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "3111ee5e3318d4158f6096fd5a3e34084422d55806fb396b957f33e77ff43ea7-jpg",
+      "title": "3111ee5e3318d4158f6096fd5a3e34084422d55806fb396b957f33e77ff43ea7.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/773c0b09-e9c8-438b-8e97-5328a8a9cfff",
+      "thumbnail": "https://cdn-luma.com/3111ee5e3318d4158f6096fd5a3e34084422d55806fb396b957f33e77ff43ea7.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "d8e7f1563b34c83725c3bd458dc988363c9095d46269482663ca2cfb6a3d6568-jpg",
+      "title": "d8e7f1563b34c83725c3bd458dc988363c9095d46269482663ca2cfb6a3d6568.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5182e97c-1d1b-4b93-b148-3f990e338b60",
+      "thumbnail": "https://cdn-luma.com/d8e7f1563b34c83725c3bd458dc988363c9095d46269482663ca2cfb6a3d6568.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "056882e8f3c1b3ff49d4421c3245c4a3387cca698d6dc65fbf9c3f0cd53fd8df-jpg",
+      "title": "056882e8f3c1b3ff49d4421c3245c4a3387cca698d6dc65fbf9c3f0cd53fd8df.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/fdae8b34-441d-465c-8c86-ab0a9b7a7ea1",
+      "thumbnail": "https://cdn-luma.com/056882e8f3c1b3ff49d4421c3245c4a3387cca698d6dc65fbf9c3f0cd53fd8df.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "f6f380f1c7883aafb11ed888e0cb4b488e6397732038f8e32d16c08952fab36f-jpg",
+      "title": "f6f380f1c7883aafb11ed888e0cb4b488e6397732038f8e32d16c08952fab36f.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5f20f8a5-44f4-4e42-af3d-bb3135760852",
+      "thumbnail": "https://cdn-luma.com/f6f380f1c7883aafb11ed888e0cb4b488e6397732038f8e32d16c08952fab36f.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "4262bc11f63390777a2ab2e4bdab05c604f9d7345d27033f72c6f5930400b06c-jpg",
+      "title": "4262bc11f63390777a2ab2e4bdab05c604f9d7345d27033f72c6f5930400b06c.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/156b5d9e-2d95-4f16-baaa-921edf4588ca",
+      "thumbnail": "https://cdn-luma.com/4262bc11f63390777a2ab2e4bdab05c604f9d7345d27033f72c6f5930400b06c.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "012d8cf04e98a4c6244ec9c9290d0cadc6259e73291091bb0ded7c8eaf9362a5-jpg",
+      "title": "012d8cf04e98a4c6244ec9c9290d0cadc6259e73291091bb0ded7c8eaf9362a5.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/4e4264b2-878f-4d39-a32a-7ad70afda033",
+      "thumbnail": "https://cdn-luma.com/012d8cf04e98a4c6244ec9c9290d0cadc6259e73291091bb0ded7c8eaf9362a5.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "d466167a0b4f181e7f3b59004dd2a1f8e08199b7a7c19f5c08a1f01fee7a2198-jpg",
+      "title": "d466167a0b4f181e7f3b59004dd2a1f8e08199b7a7c19f5c08a1f01fee7a2198.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/2fb9bf84-b96f-4e26-99e3-1f0729463e36",
+      "thumbnail": "https://cdn-luma.com/d466167a0b4f181e7f3b59004dd2a1f8e08199b7a7c19f5c08a1f01fee7a2198.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "92fa4d863fa6800246c63b510a569133bb3b5a17388252ed0d1e64bc7cad2cda-jpg",
+      "title": "92fa4d863fa6800246c63b510a569133bb3b5a17388252ed0d1e64bc7cad2cda.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/e3e51458-8bc7-44f6-9e8d-6d7bd09c4f96",
+      "thumbnail": "https://cdn-luma.com/92fa4d863fa6800246c63b510a569133bb3b5a17388252ed0d1e64bc7cad2cda.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fe2f30be4a57c05ff5d6637761228ad87da3c1b52e06d370d0d35b7fae9ed83f-jpg",
+      "title": "fe2f30be4a57c05ff5d6637761228ad87da3c1b52e06d370d0d35b7fae9ed83f.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f9ed5585-f81e-4cb9-8703-0b0c6372db2a",
+      "thumbnail": "https://cdn-luma.com/fe2f30be4a57c05ff5d6637761228ad87da3c1b52e06d370d0d35b7fae9ed83f.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "aef322c25776351f907089cb870fdefb961dfd4892abd13e67f5739c859d5fcd-jpg",
+      "title": "aef322c25776351f907089cb870fdefb961dfd4892abd13e67f5739c859d5fcd.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ee649e3b-19a8-45d9-ba3f-f0c28c4c1ceb",
+      "thumbnail": "https://cdn-luma.com/aef322c25776351f907089cb870fdefb961dfd4892abd13e67f5739c859d5fcd.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "matter3",
+      "title": "Matter3",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1306099f-d048-4d84-9d35-c3b8371da4ad",
+      "thumbnail": "https://cdn-luma.com/1a6a6a71d69af2dfac20b2a81136fddf69e6a609187468b29fa7374f1224d170/Matter3_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "40c6999a57e011cca7f1957e71ba47f7619a34b91b7c01b69a73a301c689ad93-jpg",
+      "title": "40c6999a57e011cca7f1957e71ba47f7619a34b91b7c01b69a73a301c689ad93.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/9a7eba2f-08eb-4fc8-8621-4e0f670e0f1c",
+      "thumbnail": "https://cdn-luma.com/40c6999a57e011cca7f1957e71ba47f7619a34b91b7c01b69a73a301c689ad93.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "4a911e5d1d1b97558f95feb63521bc7e1c6ef8202b86f1f0bc285347a74c5df3-jpg",
+      "title": "4a911e5d1d1b97558f95feb63521bc7e1c6ef8202b86f1f0bc285347a74c5df3.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/9d542446-0aed-4f5e-8755-996eac73c387",
+      "thumbnail": "https://cdn-luma.com/4a911e5d1d1b97558f95feb63521bc7e1c6ef8202b86f1f0bc285347a74c5df3.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "1ea78dfc6ca5e550953e42f10d8cd2db25b5d5a77f2e0b18fffd486c2dc91a4b-jpg",
+      "title": "1ea78dfc6ca5e550953e42f10d8cd2db25b5d5a77f2e0b18fffd486c2dc91a4b.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/befd9f26-88d8-4a8d-9fe6-1318132193c2",
+      "thumbnail": "https://cdn-luma.com/1ea78dfc6ca5e550953e42f10d8cd2db25b5d5a77f2e0b18fffd486c2dc91a4b.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "20ad43e5b4cc44cdb3f5e65623ac286a614d9d71ee208dcab91ce4c180e7ed13-jpg",
+      "title": "20ad43e5b4cc44cdb3f5e65623ac286a614d9d71ee208dcab91ce4c180e7ed13.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/b1535ddc-2ee9-44d5-bd2f-da547e2727a6",
+      "thumbnail": "https://cdn-luma.com/20ad43e5b4cc44cdb3f5e65623ac286a614d9d71ee208dcab91ce4c180e7ed13.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "8256392cc0f91053edcbec2cf022951e73830a9c8354313ad832695a228fa003-jpg",
+      "title": "8256392cc0f91053edcbec2cf022951e73830a9c8354313ad832695a228fa003.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/8eddd1b4-65eb-4323-ae65-72f68a8a19e1",
+      "thumbnail": "https://cdn-luma.com/8256392cc0f91053edcbec2cf022951e73830a9c8354313ad832695a228fa003.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "db4b95ee37e7242370c38a0866241dd1d975b095594821f7761bdbd0c4cc9eba-jpg",
+      "title": "db4b95ee37e7242370c38a0866241dd1d975b095594821f7761bdbd0c4cc9eba.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/0b17044c-d275-4d6c-a7f8-5a0dce6074cf",
+      "thumbnail": "https://cdn-luma.com/db4b95ee37e7242370c38a0866241dd1d975b095594821f7761bdbd0c4cc9eba.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ddc13a9ffa84da85a1f1b506189a7b4409ccbcec6e377ce37fe6127ab2c94868-jpg",
+      "title": "ddc13a9ffa84da85a1f1b506189a7b4409ccbcec6e377ce37fe6127ab2c94868.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1df7b29d-2bf6-4c36-bc77-ce555ec889de",
+      "thumbnail": "https://cdn-luma.com/ddc13a9ffa84da85a1f1b506189a7b4409ccbcec6e377ce37fe6127ab2c94868.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "06af5bc5486cd284ee0f45fca798124237b9d0a98c8a5bc10d443f1f5dc4c079-jpg",
+      "title": "06af5bc5486cd284ee0f45fca798124237b9d0a98c8a5bc10d443f1f5dc4c079.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1e875646-d6be-4988-979d-81cdcfe4ea94",
+      "thumbnail": "https://cdn-luma.com/06af5bc5486cd284ee0f45fca798124237b9d0a98c8a5bc10d443f1f5dc4c079.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "f5d91aba99122d82e9101a7d57a6271e49f040117b79ed358f49b64c23866152-jpg",
+      "title": "f5d91aba99122d82e9101a7d57a6271e49f040117b79ed358f49b64c23866152.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1b32b777-8276-45d8-a4c5-74708d270b64",
+      "thumbnail": "https://cdn-luma.com/f5d91aba99122d82e9101a7d57a6271e49f040117b79ed358f49b64c23866152.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "49a35c9e2a9913602a0e8543f88eff71742e2d716444caf15202b22bb9d318d6-jpg",
+      "title": "49a35c9e2a9913602a0e8543f88eff71742e2d716444caf15202b22bb9d318d6.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1f8c0563-ccf5-47a3-b505-16c5dbf1dfec",
+      "thumbnail": "https://cdn-luma.com/49a35c9e2a9913602a0e8543f88eff71742e2d716444caf15202b22bb9d318d6.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "2159cc9aac0751dd5a5dc97b1cd1beb6d1598dcafc59c70632f8276e3ab4fb8b-jpg",
+      "title": "2159cc9aac0751dd5a5dc97b1cd1beb6d1598dcafc59c70632f8276e3ab4fb8b.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f0a57ac9-3f66-44d6-a570-af6457c8a360",
+      "thumbnail": "https://cdn-luma.com/2159cc9aac0751dd5a5dc97b1cd1beb6d1598dcafc59c70632f8276e3ab4fb8b.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "6fe845fd78ea0ed218e2963b1a8c4e9e411b1dc61c25bdea8fbc40c959b4c518-jpg",
+      "title": "6fe845fd78ea0ed218e2963b1a8c4e9e411b1dc61c25bdea8fbc40c959b4c518.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f2487d80-d955-4ff9-8917-98e2e0fea547",
+      "thumbnail": "https://cdn-luma.com/6fe845fd78ea0ed218e2963b1a8c4e9e411b1dc61c25bdea8fbc40c959b4c518.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "d6e8e21fd30e76338389df597e0cddd47d6abc838f43c1b96b718c6cbac2b1f6-jpg",
+      "title": "d6e8e21fd30e76338389df597e0cddd47d6abc838f43c1b96b718c6cbac2b1f6.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5349925b-fcdb-4134-ae91-e4b8864fa6fc",
+      "thumbnail": "https://cdn-luma.com/d6e8e21fd30e76338389df597e0cddd47d6abc838f43c1b96b718c6cbac2b1f6.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "045c4a812551831b4c0727fc6ae39e23df496c950c007df07693139e17316c31-jpg",
+      "title": "045c4a812551831b4c0727fc6ae39e23df496c950c007df07693139e17316c31.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/bbb83629-ad37-4490-a596-3368ac6b843f",
+      "thumbnail": "https://cdn-luma.com/045c4a812551831b4c0727fc6ae39e23df496c950c007df07693139e17316c31.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "c062023c1ae3f822797fc8e56d85af77a7450c50f0b3baa663a7e0cc1b2d9a67-jpg",
+      "title": "c062023c1ae3f822797fc8e56d85af77a7450c50f0b3baa663a7e0cc1b2d9a67.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/e592a633-9688-4525-9524-90e938f3a430",
+      "thumbnail": "https://cdn-luma.com/c062023c1ae3f822797fc8e56d85af77a7450c50f0b3baa663a7e0cc1b2d9a67.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "milz",
+      "title": "Milz",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/9c8ea602-b216-4fb8-be6c-3e6677883913",
+      "thumbnail": "https://cdn-luma.com/5be5e45cb74b8a403b648d21818de567dc37186862e39df0af6c926a4d395c20/Milz_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "373451eb6dcfaa7826e7eeba965b74fd95f1b1aee5b4b2479b9336b48ecac207-jpg",
+      "title": "373451eb6dcfaa7826e7eeba965b74fd95f1b1aee5b4b2479b9336b48ecac207.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/94442e50-4825-4940-aef0-71ababa3018b",
+      "thumbnail": "https://cdn-luma.com/373451eb6dcfaa7826e7eeba965b74fd95f1b1aee5b4b2479b9336b48ecac207.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "1d15faddb43b2f3b62efb86fa1d621c1d4c6a6722b68b1e54aa4593ae54b65d8-jpg",
+      "title": "1d15faddb43b2f3b62efb86fa1d621c1d4c6a6722b68b1e54aa4593ae54b65d8.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ab494a62-6a7a-42ba-8bfe-dc1dd5ccfdb1",
+      "thumbnail": "https://cdn-luma.com/1d15faddb43b2f3b62efb86fa1d621c1d4c6a6722b68b1e54aa4593ae54b65d8.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "0bb1d57b3fd0b01b62c476bb99a88744d76ad6878e91dfda6134fa2d98279a5b-jpg",
+      "title": "0bb1d57b3fd0b01b62c476bb99a88744d76ad6878e91dfda6134fa2d98279a5b.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/0bf05ccc-3d02-4abb-8490-ac5ef45db5db",
+      "thumbnail": "https://cdn-luma.com/0bb1d57b3fd0b01b62c476bb99a88744d76ad6878e91dfda6134fa2d98279a5b.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "2d1bd99d07517e603923c6e39c3a7a2872d3167a24d7234288f5d5d56d73fade-jpg",
+      "title": "2d1bd99d07517e603923c6e39c3a7a2872d3167a24d7234288f5d5d56d73fade.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ddac63c0-79dd-4a43-912b-862abe89dae2",
+      "thumbnail": "https://cdn-luma.com/2d1bd99d07517e603923c6e39c3a7a2872d3167a24d7234288f5d5d56d73fade.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "aatb3",
+      "title": "Aatb3",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/314b440d-960e-48c2-9d94-7be6c65e723a",
+      "thumbnail": "https://cdn-luma.com/7ca5daeb5590bd18ded60f7085d7ffb777afa6c38100b450423b89700a03321c/Aatb3_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "aatb3-2",
+      "title": "Aatb3",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/34a18e94-d31c-4d9f-b4d2-6bbe2fd054a8",
+      "thumbnail": "https://cdn-luma.com/9052d507ebc75b29ae0637ab2d6b5aeb65e26f3d06443ab7a3b608ffee5aeee0/Aatb3_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "8ead512d1fd852bb5f8adbb12088ff7b0d555e6cdc9b5acd45ab5617e533f241-jpg",
+      "title": "8ead512d1fd852bb5f8adbb12088ff7b0d555e6cdc9b5acd45ab5617e533f241.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1a7653aa-40d4-4897-93cc-2ac9ef59236d",
+      "thumbnail": "https://cdn-luma.com/8ead512d1fd852bb5f8adbb12088ff7b0d555e6cdc9b5acd45ab5617e533f241.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "1824b2d3da20927e135c299888d08eeadf598a09b056f48e4dc43524a88ef54d-jpg",
+      "title": "1824b2d3da20927e135c299888d08eeadf598a09b056f48e4dc43524a88ef54d.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/82ad4c41-b240-4176-93f3-a86bf1fea27a",
+      "thumbnail": "https://cdn-luma.com/1824b2d3da20927e135c299888d08eeadf598a09b056f48e4dc43524a88ef54d.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ceb6af5daf83d4f2cdd575cbbe357c42014b6a8e4b565ede0ac865b11b285c29-jpg",
+      "title": "ceb6af5daf83d4f2cdd575cbbe357c42014b6a8e4b565ede0ac865b11b285c29.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/8e525f93-263f-433a-9623-74f578b64991",
+      "thumbnail": "https://cdn-luma.com/ceb6af5daf83d4f2cdd575cbbe357c42014b6a8e4b565ede0ac865b11b285c29.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "e37d478e6dcb59e280636ae73b7e33c2a3bf0391dea49f5f3ac798d86a102f33-jpg",
+      "title": "e37d478e6dcb59e280636ae73b7e33c2a3bf0391dea49f5f3ac798d86a102f33.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/6dbd2f76-8496-47e3-8b23-ca315d26c56e",
+      "thumbnail": "https://cdn-luma.com/e37d478e6dcb59e280636ae73b7e33c2a3bf0391dea49f5f3ac798d86a102f33.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "002ec6bea4f983e2f210ec6f76bca4cc32cf25456f23f50bd30c327254b7ad2b-jpg",
+      "title": "002ec6bea4f983e2f210ec6f76bca4cc32cf25456f23f50bd30c327254b7ad2b.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/e7d72ab2-c476-408c-b830-4fc8d3410049",
+      "thumbnail": "https://cdn-luma.com/002ec6bea4f983e2f210ec6f76bca4cc32cf25456f23f50bd30c327254b7ad2b.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "8a0f75af7fec28294725f737163b33fb785796b228fe5ec87c62c4905c906bbe-jpg",
+      "title": "8a0f75af7fec28294725f737163b33fb785796b228fe5ec87c62c4905c906bbe.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/da3906b0-0039-4f0d-b248-6226c6b81def",
+      "thumbnail": "https://cdn-luma.com/8a0f75af7fec28294725f737163b33fb785796b228fe5ec87c62c4905c906bbe.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fdce04037a86fc1467dc9ae2791a7676e5fc47c7d914b1fe8491b4b381ca6c0e-jpg",
+      "title": "fdce04037a86fc1467dc9ae2791a7676e5fc47c7d914b1fe8491b4b381ca6c0e.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/014961c1-f470-450b-bf72-415df2986ad7",
+      "thumbnail": "https://cdn-luma.com/fdce04037a86fc1467dc9ae2791a7676e5fc47c7d914b1fe8491b4b381ca6c0e.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "villakoivu2",
+      "title": "Villakoivu2",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/7e006f59-5bb9-4bdf-8642-c3860c3a405f",
+      "thumbnail": "https://cdn-luma.com/f853ba19f1e9cae8b9bfa817330eaca906fca28b6e140bb4fcbed18a0a21e879/Villakoivu2_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "33e6388e56c629644d68243e3aa986d9a3b3e59321faa5d2aa240e9f274f6530-jpg",
+      "title": "33e6388e56c629644d68243e3aa986d9a3b3e59321faa5d2aa240e9f274f6530.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/af5140e2-c95e-4e78-9dd4-af53661b8eab",
+      "thumbnail": "https://cdn-luma.com/33e6388e56c629644d68243e3aa986d9a3b3e59321faa5d2aa240e9f274f6530.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "509af8606a70234d6c8d33073e568e02369184eca5348993cd335b3f0e5fccbe-jpg",
+      "title": "509af8606a70234d6c8d33073e568e02369184eca5348993cd335b3f0e5fccbe.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/66da355f-f3f0-4357-8a6a-2325e45254cb",
+      "thumbnail": "https://cdn-luma.com/509af8606a70234d6c8d33073e568e02369184eca5348993cd335b3f0e5fccbe.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ae5328659d798f415b2520c30e472f8e24ea909cda534a58fca8376cacb8c9f0-jpg",
+      "title": "ae5328659d798f415b2520c30e472f8e24ea909cda534a58fca8376cacb8c9f0.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/3d0982dd-0c69-4ecf-abf4-763fd98c9547",
+      "thumbnail": "https://cdn-luma.com/ae5328659d798f415b2520c30e472f8e24ea909cda534a58fca8376cacb8c9f0.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "82325d3551f9a59b58d1e8f25960a997b6a4be48bf03e847cf262c9e6f0c7f29-jpg",
+      "title": "82325d3551f9a59b58d1e8f25960a997b6a4be48bf03e847cf262c9e6f0c7f29.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/e285861b-810b-4751-bc50-bd9171b3b9b3",
+      "thumbnail": "https://cdn-luma.com/82325d3551f9a59b58d1e8f25960a997b6a4be48bf03e847cf262c9e6f0c7f29.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "4e5b8efdf45ce6d6ba42f8831dc62365e3a4241a9ed3c1563638d90e652056fc-jpg",
+      "title": "4e5b8efdf45ce6d6ba42f8831dc62365e3a4241a9ed3c1563638d90e652056fc.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/a5675e7a-8201-402b-9b14-6a64568cc3f2",
+      "thumbnail": "https://cdn-luma.com/4e5b8efdf45ce6d6ba42f8831dc62365e3a4241a9ed3c1563638d90e652056fc.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "bdf461aa010385ff96e31c223c756e9cdfa9c467980ac68627dd83709ab9c417-jpg",
+      "title": "bdf461aa010385ff96e31c223c756e9cdfa9c467980ac68627dd83709ab9c417.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/273dc930-ec14-4e5d-9fbd-404ea328bc99",
+      "thumbnail": "https://cdn-luma.com/bdf461aa010385ff96e31c223c756e9cdfa9c467980ac68627dd83709ab9c417.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "03e4bba143a80d2fa64bc2d6439e1d3ede5f13d27cc0608a60da6f61c8b49e4d-jpg",
+      "title": "03e4bba143a80d2fa64bc2d6439e1d3ede5f13d27cc0608a60da6f61c8b49e4d.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/4854f9f5-b992-4d6f-b8a0-f7b6f7da64cb",
+      "thumbnail": "https://cdn-luma.com/03e4bba143a80d2fa64bc2d6439e1d3ede5f13d27cc0608a60da6f61c8b49e4d.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "d6ccf6c5360eab988cb5b0e83da1681c5e4f61634207871eadd956b01b9c7b2c-jpg",
+      "title": "d6ccf6c5360eab988cb5b0e83da1681c5e4f61634207871eadd956b01b9c7b2c.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/d2674dc0-ea7d-4ad9-9cb3-34134a04068d",
+      "thumbnail": "https://cdn-luma.com/d6ccf6c5360eab988cb5b0e83da1681c5e4f61634207871eadd956b01b9c7b2c.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "70b315decfabc9b249b2d58a0874cc99b1075b906a234c0296a2ca30b882cea0-jpg",
+      "title": "70b315decfabc9b249b2d58a0874cc99b1075b906a234c0296a2ca30b882cea0.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/b30a4ead-f517-4254-b48e-aad72a0ed946",
+      "thumbnail": "https://cdn-luma.com/70b315decfabc9b249b2d58a0874cc99b1075b906a234c0296a2ca30b882cea0.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "a7c6d345dae25d51a21d7a24ac6a018386241c23400d4307c6b1eb9a066e9b0c-jpg",
+      "title": "a7c6d345dae25d51a21d7a24ac6a018386241c23400d4307c6b1eb9a066e9b0c.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f9109b41-6f1f-4696-bd3b-23a7af2c2996",
+      "thumbnail": "https://cdn-luma.com/a7c6d345dae25d51a21d7a24ac6a018386241c23400d4307c6b1eb9a066e9b0c.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "0dc8ab6d9193a3b68903d5745bac15a22bf732f67ff07419946a55009319245a-jpg",
+      "title": "0dc8ab6d9193a3b68903d5745bac15a22bf732f67ff07419946a55009319245a.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f2b50173-4b68-4e53-8639-ce81f640808c",
+      "thumbnail": "https://cdn-luma.com/0dc8ab6d9193a3b68903d5745bac15a22bf732f67ff07419946a55009319245a.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lego-castle",
+      "title": "Lego castle",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/56fb869b-4f31-4f84-855b-23c5ea4734cf",
+      "thumbnail": "https://cdn-luma.com/f90ced6c574a752d0ee935596c181087dd0d570d37c8a02ea5d2c0efa2149f47/Lego_castle_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "266f0078d8d7ada72291a4e132e68467f09e219ddae744ea155d7b3436af38a2-jpg",
+      "title": "266f0078d8d7ada72291a4e132e68467f09e219ddae744ea155d7b3436af38a2.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/770f7047-2293-4de6-9349-5c1e521c5ae4",
+      "thumbnail": "https://cdn-luma.com/266f0078d8d7ada72291a4e132e68467f09e219ddae744ea155d7b3436af38a2.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "a61b9c90d4cae47ca3eb2b18cac80c83af0cab47a30fc204122b4e3af0fba0d0-jpg",
+      "title": "a61b9c90d4cae47ca3eb2b18cac80c83af0cab47a30fc204122b4e3af0fba0d0.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/75d93a90-dbbc-4127-9f8b-120de57e5eb9",
+      "thumbnail": "https://cdn-luma.com/a61b9c90d4cae47ca3eb2b18cac80c83af0cab47a30fc204122b4e3af0fba0d0.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "3c8f45e1c1ab0de40216069aa56c47bf0e6b89509fa4e6cdf36fa4467afe8854-jpg",
+      "title": "3c8f45e1c1ab0de40216069aa56c47bf0e6b89509fa4e6cdf36fa4467afe8854.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/560e90c8-b1c2-4085-83d4-fcca6e2d0e32",
+      "thumbnail": "https://cdn-luma.com/3c8f45e1c1ab0de40216069aa56c47bf0e6b89509fa4e6cdf36fa4467afe8854.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "baiyun-video-preview-jpg",
+      "title": "Baiyun video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/2c3005f2-b5e4-4601-9e72-0217b73962db",
+      "thumbnail": "https://cdn-luma.com/renders/388de779ef3f632eb08ecac1ff59f87886fce74ced1033d5acb9e1aa22b6f5b8/Baiyun_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "golden-gate-tree-video-preview-jpg",
+      "title": "Golden gate tree video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f2efef83-a4de-4573-b5de-d0b7ca85f043",
+      "thumbnail": "https://cdn-luma.com/renders/8f419d08887007e142595d7c9746aa96be6dc4f60163e9679716444d22d1ed53/Golden_gate_tree_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kids2-video-preview-jpg",
+      "title": "Kids2 video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5197f0a4-6cab-4ab1-abf1-5fc593b0db77",
+      "thumbnail": "https://cdn-luma.com/renders/e7593c6488e006a53a7914b2625b5426592f8929df87cb9a05fd955f7b7ba4e6/Kids2_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kids-video-preview-jpg",
+      "title": "Kids video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/73da9693-7b35-4177-8b7c-35f04a0a2818",
+      "thumbnail": "https://cdn-luma.com/renders/68b08917355287722a9432a80316bec4034153789ce72c92432dc41475106cd3/Kids_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "yoga-video-preview-jpg",
+      "title": "Yoga video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/a88653bb-0c3b-45f1-bc65-dce836a3e9c1",
+      "thumbnail": "https://cdn-luma.com/renders/9aa653d52d4deffc13b68f2a58336858cf84375323ec3811dcc4aea4d3ea67f5/Yoga_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "yard-video-preview-jpg",
+      "title": "Yard video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/c5fbe610-2605-4e6c-81e8-9740515c7ea4",
+      "thumbnail": "https://cdn-luma.com/renders/cfadda68ccdf72739b1c771d47024c8ea1aae5f0c52eef19d10b535cf51038fd/Yard_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "r-yksopp-2-video-preview-jpg",
+      "title": "R yksopp 2 video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/acdd1991-26bb-4224-9343-6446e7d009a1",
+      "thumbnail": "https://cdn-luma.com/renders/535d5a849a0a190e4d47ceba0c188d6949a0b4627f2429e0e46210da332d2cb9/R_yksopp_2_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "r-yksopp-video-preview-jpg",
+      "title": "R yksopp video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/7e8c6f32-950e-4a4f-95bf-d2b467d96fa8",
+      "thumbnail": "https://cdn-luma.com/renders/e2dfb8481985ebadde06728af1d0795fe6541b4dbf86d542c569da06b20bf13d/R_yksopp_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kirnu2-video-preview-jpg",
+      "title": "Kirnu2 video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/aac08d32-6778-432d-ad2d-251c42a7d639",
+      "thumbnail": "https://cdn-luma.com/renders/fc235a6daf059d55ac4765ffa3f63a939546446b9edf341890414a8d26d268ad/Kirnu2_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pato-video-preview-jpg",
+      "title": "Pato video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/39990ab2-fba0-4748-b371-9f572ece7824",
+      "thumbnail": "https://cdn-luma.com/renders/4a6c025870c921acf961b3a9ffa4a2d3e5616c17f0a342334a2c107476c24e9f/Pato_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kirkko-video-preview-jpg",
+      "title": "Kirkko video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f528315f-302a-4315-9b6f-a52b990b3def",
+      "thumbnail": "https://cdn-luma.com/renders/4bfc244de0700a0e23e96e758b064d1749cbfd013e15e688871992baf29b1f3e/Kirkko_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tal-pool-video-preview-jpg",
+      "title": "Tal Pool video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/63014d77-ca2b-4c4b-b069-8314d87b880d",
+      "thumbnail": "https://cdn-luma.com/renders/60f1d1d19ad7b8c343e4d7ac982dff37092c71ba3053342f0d73391b427d471b/Tal_Pool_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "aamu-video-preview-jpg",
+      "title": "Aamu video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ecf7c4e2-d6f9-43c4-aadd-beb0bb520e04",
+      "thumbnail": "https://cdn-luma.com/renders/39db1a8855808fd4085837f62b902c4f542baf63976f6cfece5e2239132afc58/Aamu_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "aamupuu-video-preview-jpg",
+      "title": "Aamupuu video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/660ac5a0-0bbb-43b9-af16-149a780c1843",
+      "thumbnail": "https://cdn-luma.com/renders/7cb86c8d1069a4da6d17b2bc444bcb755886cf1411d540bb093a0bd8246b2937/Aamupuu_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "silta-video-preview-jpg",
+      "title": "Silta video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/d238cc36-609f-4058-aa5a-e08573c7d47a",
+      "thumbnail": "https://cdn-luma.com/renders/c97fed8588e03f3d25bfbc3ea37765534180d94379fb1f077d1588ec87329cd0/Silta_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kota-video-preview-jpg",
+      "title": "Kota video preview.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/67ed2486-176a-4c50-b8b0-1552ef032326",
+      "thumbnail": "https://cdn-luma.com/renders/000b3ff7cda74d64fc68323a3f7d208ba5b8c46f2f87ba47c65f5ba71981222f/Kota_video_preview.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "590cebef573c930a7648c2cf9c4e500d6a2be5da8662f4927fba7ba98400ef81-jpg",
+      "title": "590cebef573c930a7648c2cf9c4e500d6a2be5da8662f4927fba7ba98400ef81.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/91dcd2ea-2f3f-4fbe-a3ab-01e16c203200",
+      "thumbnail": "https://cdn-luma.com/renders/590cebef573c930a7648c2cf9c4e500d6a2be5da8662f4927fba7ba98400ef81.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "6867a06b0d10975eeff5c8df9d8cefc6cf3872a123b32f8f29fdfb77fc627e95-jpg",
+      "title": "6867a06b0d10975eeff5c8df9d8cefc6cf3872a123b32f8f29fdfb77fc627e95.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/7e3c1bab-ed63-45fd-8d78-cfe750b3141d",
+      "thumbnail": "https://cdn-luma.com/renders/6867a06b0d10975eeff5c8df9d8cefc6cf3872a123b32f8f29fdfb77fc627e95.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "d8c574f0bd844a55463dab882a48fd32cbf09656b8460a30b7aca64593bd4d86-jpg",
+      "title": "d8c574f0bd844a55463dab882a48fd32cbf09656b8460a30b7aca64593bd4d86.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/81930439-a3c5-47a3-9eb7-d07b619adf05",
+      "thumbnail": "https://cdn-luma.com/renders/d8c574f0bd844a55463dab882a48fd32cbf09656b8460a30b7aca64593bd4d86.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "18e3bb9b74c64b5d229c4a519536677cecadb60b29855bc01ffb953731af9cdb-jpg",
+      "title": "18e3bb9b74c64b5d229c4a519536677cecadb60b29855bc01ffb953731af9cdb.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/750fa721-1667-407f-83e5-daf8596dcc00",
+      "thumbnail": "https://cdn-luma.com/renders/18e3bb9b74c64b5d229c4a519536677cecadb60b29855bc01ffb953731af9cdb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ae9fa62c75e17553e267b0928f8768c2975ac678af765cf00aed376f50a1f0a2-jpg",
+      "title": "ae9fa62c75e17553e267b0928f8768c2975ac678af765cf00aed376f50a1f0a2.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/58da1427-af51-42aa-84a1-f57ad4c4b0c4",
+      "thumbnail": "https://cdn-luma.com/renders/ae9fa62c75e17553e267b0928f8768c2975ac678af765cf00aed376f50a1f0a2.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "25d1f5d1b9263a49f997818d3c844703ba6a7fe7d3ca7fc7cc27242ee7717a49-jpg",
+      "title": "25d1f5d1b9263a49f997818d3c844703ba6a7fe7d3ca7fc7cc27242ee7717a49.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/97393cb1-3bfb-4707-a4f1-a10b7c2419b5",
+      "thumbnail": "https://cdn-luma.com/renders/25d1f5d1b9263a49f997818d3c844703ba6a7fe7d3ca7fc7cc27242ee7717a49.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "a22c18570bd1a5ce20143c20b4dc30fb1a072f472ed59a72917c4d0d05bcce8d-jpg",
+      "title": "a22c18570bd1a5ce20143c20b4dc30fb1a072f472ed59a72917c4d0d05bcce8d.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/773c0b09-e9c8-438b-8e97-5328a8a9cfff",
+      "thumbnail": "https://cdn-luma.com/renders/a22c18570bd1a5ce20143c20b4dc30fb1a072f472ed59a72917c4d0d05bcce8d.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "7165aa95274b0f22a2e85a3b08ca426a5478656d7252c7749bc8a3e1fa9866c6-jpg",
+      "title": "7165aa95274b0f22a2e85a3b08ca426a5478656d7252c7749bc8a3e1fa9866c6.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5182e97c-1d1b-4b93-b148-3f990e338b60",
+      "thumbnail": "https://cdn-luma.com/renders/7165aa95274b0f22a2e85a3b08ca426a5478656d7252c7749bc8a3e1fa9866c6.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "75299e45e44ea6468861a3954a0805ce181c90013e01a5330014be6b4abff076-jpg",
+      "title": "75299e45e44ea6468861a3954a0805ce181c90013e01a5330014be6b4abff076.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1306099f-d048-4d84-9d35-c3b8371da4ad",
+      "thumbnail": "https://cdn-luma.com/renders/75299e45e44ea6468861a3954a0805ce181c90013e01a5330014be6b4abff076.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "88facc4c1663389872e16cc6be7036eaded7c11cf73f0d463197bc355e829574-jpg",
+      "title": "88facc4c1663389872e16cc6be7036eaded7c11cf73f0d463197bc355e829574.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/fdae8b34-441d-465c-8c86-ab0a9b7a7ea1",
+      "thumbnail": "https://cdn-luma.com/renders/88facc4c1663389872e16cc6be7036eaded7c11cf73f0d463197bc355e829574.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "d762919175569dc51860dc24eb69d22f0f48c02585b989d4361903f0daf0419a-jpg",
+      "title": "d762919175569dc51860dc24eb69d22f0f48c02585b989d4361903f0daf0419a.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5f20f8a5-44f4-4e42-af3d-bb3135760852",
+      "thumbnail": "https://cdn-luma.com/renders/d762919175569dc51860dc24eb69d22f0f48c02585b989d4361903f0daf0419a.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "f7ff66b0b867e4318afbcb144205fb48f9fbe6a1c108a2b0e9a6e2f65e5b6587-jpg",
+      "title": "f7ff66b0b867e4318afbcb144205fb48f9fbe6a1c108a2b0e9a6e2f65e5b6587.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/156b5d9e-2d95-4f16-baaa-921edf4588ca",
+      "thumbnail": "https://cdn-luma.com/renders/f7ff66b0b867e4318afbcb144205fb48f9fbe6a1c108a2b0e9a6e2f65e5b6587.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "57a7472cc19bc017f3ba2c1b9254c2909d54161633ac566d0e37841ccddceca0-jpg",
+      "title": "57a7472cc19bc017f3ba2c1b9254c2909d54161633ac566d0e37841ccddceca0.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/2fb9bf84-b96f-4e26-99e3-1f0729463e36",
+      "thumbnail": "https://cdn-luma.com/renders/57a7472cc19bc017f3ba2c1b9254c2909d54161633ac566d0e37841ccddceca0.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "e5cc6af8cd98aff89bc86e205a3cff2384011f2679665fda1ca60e52f69af544-jpg",
+      "title": "e5cc6af8cd98aff89bc86e205a3cff2384011f2679665fda1ca60e52f69af544.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/e3e51458-8bc7-44f6-9e8d-6d7bd09c4f96",
+      "thumbnail": "https://cdn-luma.com/renders/e5cc6af8cd98aff89bc86e205a3cff2384011f2679665fda1ca60e52f69af544.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "c858e53028eb3b9bdb40644d60e692e9b91e70a37523e7b221acab4af075e621-jpg",
+      "title": "c858e53028eb3b9bdb40644d60e692e9b91e70a37523e7b221acab4af075e621.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/befd9f26-88d8-4a8d-9fe6-1318132193c2",
+      "thumbnail": "https://cdn-luma.com/renders/c858e53028eb3b9bdb40644d60e692e9b91e70a37523e7b221acab4af075e621.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ee81d27fe94b082c900e6b9b4def9912e70323e1e1f54531a1153caee10edb7c-jpg",
+      "title": "ee81d27fe94b082c900e6b9b4def9912e70323e1e1f54531a1153caee10edb7c.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/1f8c0563-ccf5-47a3-b505-16c5dbf1dfec",
+      "thumbnail": "https://cdn-luma.com/renders/ee81d27fe94b082c900e6b9b4def9912e70323e1e1f54531a1153caee10edb7c.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "55de030768364c0f4b33551e96dcc8c5c9732e1d93d99b9c08177777f03b0a50-jpg",
+      "title": "55de030768364c0f4b33551e96dcc8c5c9732e1d93d99b9c08177777f03b0a50.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f2487d80-d955-4ff9-8917-98e2e0fea547",
+      "thumbnail": "https://cdn-luma.com/renders/55de030768364c0f4b33551e96dcc8c5c9732e1d93d99b9c08177777f03b0a50.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "8ebbb08584282c92d4cf0e1ac5aabb7eefaa79cc40f34614c4740f5ae23837b7-jpg",
+      "title": "8ebbb08584282c92d4cf0e1ac5aabb7eefaa79cc40f34614c4740f5ae23837b7.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/9c8ea602-b216-4fb8-be6c-3e6677883913",
+      "thumbnail": "https://cdn-luma.com/renders/8ebbb08584282c92d4cf0e1ac5aabb7eefaa79cc40f34614c4740f5ae23837b7.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "be6ae904116a4c75f06791f6045d7d0eb1a1fd31c38169adc17ca0b336a0b683-jpg",
+      "title": "be6ae904116a4c75f06791f6045d7d0eb1a1fd31c38169adc17ca0b336a0b683.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/94442e50-4825-4940-aef0-71ababa3018b",
+      "thumbnail": "https://cdn-luma.com/renders/be6ae904116a4c75f06791f6045d7d0eb1a1fd31c38169adc17ca0b336a0b683.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "c23683e0842d77b6f3f4c3fe7c728ec4bcbd13909c9c4458f487c64a6b8125d3-jpg",
+      "title": "c23683e0842d77b6f3f4c3fe7c728ec4bcbd13909c9c4458f487c64a6b8125d3.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/0bf05ccc-3d02-4abb-8490-ac5ef45db5db",
+      "thumbnail": "https://cdn-luma.com/renders/c23683e0842d77b6f3f4c3fe7c728ec4bcbd13909c9c4458f487c64a6b8125d3.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "42257b8687a112a928f25151baeacaf9e239a08003526f83dffb64b9822b3f29-jpg",
+      "title": "42257b8687a112a928f25151baeacaf9e239a08003526f83dffb64b9822b3f29.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ddac63c0-79dd-4a43-912b-862abe89dae2",
+      "thumbnail": "https://cdn-luma.com/renders/42257b8687a112a928f25151baeacaf9e239a08003526f83dffb64b9822b3f29.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "723103e30987a5bfa9b76f26d96519a47be28ff32ce92178602a45e6b1dc9689-jpg",
+      "title": "723103e30987a5bfa9b76f26d96519a47be28ff32ce92178602a45e6b1dc9689.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/34a18e94-d31c-4d9f-b4d2-6bbe2fd054a8",
+      "thumbnail": "https://cdn-luma.com/renders/723103e30987a5bfa9b76f26d96519a47be28ff32ce92178602a45e6b1dc9689.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "da321569d30d5dd02edf7f3629782e7d185c9566a5625f7796ab5f421763325b-jpg",
+      "title": "da321569d30d5dd02edf7f3629782e7d185c9566a5625f7796ab5f421763325b.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/82ad4c41-b240-4176-93f3-a86bf1fea27a",
+      "thumbnail": "https://cdn-luma.com/renders/da321569d30d5dd02edf7f3629782e7d185c9566a5625f7796ab5f421763325b.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "f8153d9f48268261618dd70580839b7323cde28cf79303f3b06159c32ce6e65d-jpg",
+      "title": "f8153d9f48268261618dd70580839b7323cde28cf79303f3b06159c32ce6e65d.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/8e525f93-263f-433a-9623-74f578b64991",
+      "thumbnail": "https://cdn-luma.com/renders/f8153d9f48268261618dd70580839b7323cde28cf79303f3b06159c32ce6e65d.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "866b38205923046025febfc6392eb5416b7223fa67aa36644e6787fa829a8ef5-jpg",
+      "title": "866b38205923046025febfc6392eb5416b7223fa67aa36644e6787fa829a8ef5.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/6dbd2f76-8496-47e3-8b23-ca315d26c56e",
+      "thumbnail": "https://cdn-luma.com/renders/866b38205923046025febfc6392eb5416b7223fa67aa36644e6787fa829a8ef5.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "4b1ede053054cdc31c2a781385e95b5b5d31525cc9d2713555679359a7efe311-jpg",
+      "title": "4b1ede053054cdc31c2a781385e95b5b5d31525cc9d2713555679359a7efe311.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/e7d72ab2-c476-408c-b830-4fc8d3410049",
+      "thumbnail": "https://cdn-luma.com/renders/4b1ede053054cdc31c2a781385e95b5b5d31525cc9d2713555679359a7efe311.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "505036dd461526a08700bcc91a3e0e891946c3f0dc1b91552565b64cc78a595e-jpg",
+      "title": "505036dd461526a08700bcc91a3e0e891946c3f0dc1b91552565b64cc78a595e.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/da3906b0-0039-4f0d-b248-6226c6b81def",
+      "thumbnail": "https://cdn-luma.com/renders/505036dd461526a08700bcc91a3e0e891946c3f0dc1b91552565b64cc78a595e.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "10399bb13f7a9a1d393ed9f10799828644e2fe33a22cc85fc6abf17dc90c4c42-jpg",
+      "title": "10399bb13f7a9a1d393ed9f10799828644e2fe33a22cc85fc6abf17dc90c4c42.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/af5140e2-c95e-4e78-9dd4-af53661b8eab",
+      "thumbnail": "https://cdn-luma.com/renders/10399bb13f7a9a1d393ed9f10799828644e2fe33a22cc85fc6abf17dc90c4c42.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "6abeb9c15395038699f9565eed9a6642bc3522049d7583830be6556484047f5d-jpg",
+      "title": "6abeb9c15395038699f9565eed9a6642bc3522049d7583830be6556484047f5d.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/3d0982dd-0c69-4ecf-abf4-763fd98c9547",
+      "thumbnail": "https://cdn-luma.com/renders/6abeb9c15395038699f9565eed9a6642bc3522049d7583830be6556484047f5d.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ac6ce53c529ed77686dab647c8127e70c88e06bafa5f108d5de6fa2cbb2fe290-jpg",
+      "title": "ac6ce53c529ed77686dab647c8127e70c88e06bafa5f108d5de6fa2cbb2fe290.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f2b50173-4b68-4e53-8639-ce81f640808c",
+      "thumbnail": "https://cdn-luma.com/renders/ac6ce53c529ed77686dab647c8127e70c88e06bafa5f108d5de6fa2cbb2fe290.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "5da541ea89f6e98d6491e3eb1865fd3684ebc5ed362e67607f074b4752eb44c6-jpg",
+      "title": "5da541ea89f6e98d6491e3eb1865fd3684ebc5ed362e67607f074b4752eb44c6.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/014961c1-f470-450b-bf72-415df2986ad7",
+      "thumbnail": "https://cdn-luma.com/renders/5da541ea89f6e98d6491e3eb1865fd3684ebc5ed362e67607f074b4752eb44c6.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "40c958985f2ebb908cd082a1d43b608bcf3fe6aef636b7a934d3f62d646f3b54-jpg",
+      "title": "40c958985f2ebb908cd082a1d43b608bcf3fe6aef636b7a934d3f62d646f3b54.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/56fb869b-4f31-4f84-855b-23c5ea4734cf",
+      "thumbnail": "https://cdn-luma.com/renders/40c958985f2ebb908cd082a1d43b608bcf3fe6aef636b7a934d3f62d646f3b54.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "0de403f5cb5a37c6c6be0f58d96f405e73194209fa0e52c31f2e2d60df48ad69-jpg",
+      "title": "0de403f5cb5a37c6c6be0f58d96f405e73194209fa0e52c31f2e2d60df48ad69.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/66da355f-f3f0-4357-8a6a-2325e45254cb",
+      "thumbnail": "https://cdn-luma.com/renders/0de403f5cb5a37c6c6be0f58d96f405e73194209fa0e52c31f2e2d60df48ad69.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "0d5d6c8c74077991e710ab7bfb401a4af86202b073cfa6c6d3654cf80f604f07-jpg",
+      "title": "0d5d6c8c74077991e710ab7bfb401a4af86202b073cfa6c6d3654cf80f604f07.jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/7e006f59-5bb9-4bdf-8642-c3860c3a405f",
+      "thumbnail": "https://cdn-luma.com/renders/0d5d6c8c74077991e710ab7bfb401a4af86202b073cfa6c6d3654cf80f604f07.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "0039",
+      "title": "0039",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/016ff4ce-847a-47b6-a3ba-9017339797f5",
+      "thumbnail": "https://cdn-luma.com/568c84bd9fc897a01b933f2b413a63232b8fe1efc8db249bb743aec2c7f8420c/0039_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "archive-zip",
+      "title": "Archive zip",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/3028ec67-08cf-4795-9048-758e71d7328c",
+      "thumbnail": "https://cdn-luma.com/c70ceac463970d8045f2f7a276278bd099ff1237044be016be55102d088a98e4/Archive_zip_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "culture-market",
+      "title": "Culture market",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/fb6b5899-7c3c-42fe-8d08-c3f13d3ffdd5",
+      "thumbnail": "https://cdn-luma.com/5ad4e3734bd62f7e430b2027ed18e0ee4f94e8c58e2409164b8eebf305970932/Culture_market_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "warcombined",
+      "title": "WarCombined",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/23fc3f65-c2ec-45f0-bf43-70b484c919e4",
+      "thumbnail": "https://cdn-luma.com/b9343409739af9f3eea9aed2b2a03b89e7d5859dd75e933acbd50789e846d7c5/WarCombined_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "1088-color",
+      "title": "1088 Color",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/c2d8df73-79ac-4ac9-8afa-9c6039d29431",
+      "thumbnail": "https://cdn-luma.com/26c7b447fe4d706512d56d9ca9fdc30102108a99cc3b4f5428d8012366906741/1088_Color_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "bzovik-all",
+      "title": "Bzovik all",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/14e491bd-4cce-4564-92ff-bb797ffa31ea",
+      "thumbnail": "https://cdn-luma.com/213e22a57e32f265430e3432d4314cff0ad66e6aa40bf65ca5984bc1d1d21ccc/Bzovik_all_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "amor",
+      "title": "Amor",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/5d0d98e7-f3cf-4dd9-a3c2-b2cce6b4a13d",
+      "thumbnail": "https://cdn-luma.com/9f98202159ae7a76a402b3735148810859fef8f1083dc99cc41cb6476ded0b66/Amor_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "untitled",
+      "title": "",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/6af6e301-1267-4c53-89e1-241a4cfd1b80",
+      "thumbnail": "https://cdn-luma.com/1e3d46d3aedd31b3c57f3f7efc7986425737267785f7f5e9f81f6e206eb8978d/_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gfm",
+      "title": "GFM",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/36783a60-d040-442d-80f3-b8bca256e225",
+      "thumbnail": "https://cdn-luma.com/137aec37a25c29694e4eba1c02d9d585ba5cd4694d08c0d2e3afc116893a9bf9/GFM_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "beeldsss",
+      "title": "Beeldsss",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/80406aa2-1bbf-48d6-9f65-5adeb48f5692",
+      "thumbnail": "https://cdn-luma.com/daf8a61348fa1ce66ad71ebd4620c5acb3ec0145e9bf1c7c079acdd334c93825/Beeldsss_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pribelce-kostolik-jpg",
+      "title": "Pribelce kostolik jpg",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/4b2a92dc-983f-433e-aa43-f89db0ea5917",
+      "thumbnail": "https://cdn-luma.com/963fd273c4a85127dafede9b722a815f7d7ca3f6f2320d9884888e81dde4ca71/Pribelce_kostolik_jpg_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "5",
+      "title": "5",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/422972cb-59f7-46e0-87dc-36015cb7286b",
+      "thumbnail": "https://cdn-luma.com/62511723656695a0bd2819e28e3800783b202a990b67ec1f173c80cd5ce7c015/5_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "untitled-2",
+      "title": "",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/f45a5f26-3b70-4bfa-9c7a-5d95a1df942f",
+      "thumbnail": "https://cdn-luma.com/47f52950cc47b3d1b9d93e5c3287b1dc6a72383657d3a1d9e20f929f2ccc4170/_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "vrchtepla-orbit",
+      "title": "Vrchtepla orbit",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/0050bd05-4bfb-4d4e-8a34-7b7789586d53",
+      "thumbnail": "https://cdn-luma.com/91f5c890d088a0b2d69ae5b24e5a1e123179d274b1dd1eb88d48ed0767a3955d/Vrchtepla_orbit_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "archieve-zip",
+      "title": "Archieve zip",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/452aa7af-d598-4f4d-b726-5cfcc5557604",
+      "thumbnail": "https://cdn-luma.com/fd9661a2f537c02f9bb6e7bcc286893e30ac23860c8db183d7f73572303ee96f/Archieve_zip_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gravity",
+      "title": "Gravity",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/fb5e9a17-5e68-4448-8da9-e77991ecf1ec",
+      "thumbnail": "https://cdn-luma.com/7420c5ff703aa54ccab54dcc4f2e42e10c5b3db1a8bfe25972d0607d7fb36b4d/Gravity_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "all-data",
+      "title": "all data",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/e0ba38f9-645f-42f2-86e0-95ecdd2421aa",
+      "thumbnail": "https://cdn-luma.com/52d801dac792c6fdbac673b72e5b9973f6230dae1ff58899dc165ae3434ca38c/all_data_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "corsewall-lighthouse-hote",
+      "title": "Corsewall Lighthouse Hote",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/4f362242-ad43-4851-9b04-88adf71f24f5",
+      "thumbnail": "https://cdn-luma.com/b2dd23f3fd3d4758255e3c2ebd53ac3c34afa1fa44044c38b4dfce0d4e2361fa/Corsewall_Lighthouse_Hote_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "robot-heart-2b",
+      "title": "Robot Heart 2b",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/ca0cb562-4f08-425c-a40e-cfe9df682e41",
+      "thumbnail": "https://cdn-luma.com/609feb56e23fd75295774a56d9651f64e54e7f89c13ec6a9f04e74a73d2ec7b7/Robot_Heart_2b_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "burano-nerf",
+      "title": "BURANO NERF",
+      "description": "",
+      "source": "https://lumalabs.ai/capture/decb0344-6455-4189-934f-8bd1f6a4fe2e",
+      "thumbnail": "https://cdn-luma.com/86001e83c3116919bbb8618fd4a6bd1b35eb530d51d8f24d991c9a56f35d80e8/BURANO_NERF_thumb.jpg",
+      "date": "2026-05-15",
+      "cameraPosition": [
+        0,
+        0,
+        4
+      ],
+      "cameraLookAt": [
+        0,
+        0,
+        0
+      ],
+      "splatPosition": [
+        0,
+        0,
+        0
+      ],
+      "splatRotation": [
+        0,
+        0,
+        0
+      ]
     }
   ]
 }
