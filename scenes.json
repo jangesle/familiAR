@@ -1,6 +1,7 @@
 {
   "title": "FamiliAR",
   "subtitle": "Gaussian Splat Gallery",
+  "defaultSplatScale": 5.0,
   "scenes": [
     {
       "id": "chihuly-green",
