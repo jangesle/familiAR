@@ -1,0 +1,17 @@
+{
+  "title": "FamiliAR",
+  "subtitle": "Gaussian Splat Gallery",
+  "scenes": [
+    {
+      "id": "example",
+      "title": "Example Scene",
+      "description": "Replace this with your Luma AI export",
+      "file": "assets/scenes/example.splat",
+      "thumbnail": "",
+      "date": "2026-05-15",
+      "cameraUp": [0, -1, 0],
+      "cameraPosition": [0, 1, 4],
+      "cameraLookAt": [0, 1, 0]
+    }
+  ]
+}

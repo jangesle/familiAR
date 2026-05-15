@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gaussian splat gallery — view immersive 3D scans in your browser or VR headset">
+  <title>FamiliAR</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="gallery-page">
+  <header>
+    <h1 id="site-title">FamiliAR</h1>
+    <p id="site-subtitle">Gaussian Splat Gallery</p>
+  </header>
+  <main id="gallery">
+    <p id="status-msg">Loading scenes…</p>
+  </main>
+
+  <script>
+    fetch('scenes.json')
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(({ title, subtitle, scenes }) => {
+        if (title) document.title = title;
+        if (title) document.getElementById('site-title').textContent = title;
+        if (subtitle) document.getElementById('site-subtitle').textContent = subtitle;
+
+        const gallery = document.getElementById('gallery');
+
+        if (!scenes || scenes.length === 0) {
+          gallery.innerHTML = '<p id="status-msg">No scenes configured yet. Add entries to scenes.json.</p>';
+          return;
+        }
+
+        gallery.innerHTML = '';
+        scenes.forEach(scene => {
+          const card = document.createElement('a');
+          card.href = `viewer.html?id=${encodeURIComponent(scene.id)}`;
+          card.className = 'scene-card';
+          card.setAttribute('aria-label', scene.title);
+
+          const thumb = scene.thumbnail
+            ? `<img src="${scene.thumbnail}" alt="" loading="lazy">`
+            : `<div class="no-thumb">3D</div>`;
+
+          card.innerHTML = `
+            <div class="thumbnail">${thumb}</div>
+            <div class="scene-info">
+              <h2>${scene.title}</h2>
+              ${scene.description ? `<p>${scene.description}</p>` : ''}
+              ${scene.date ? `<time datetime="${scene.date}">${scene.date}</time>` : ''}
+            </div>`;
+
+          gallery.appendChild(card);
+        });
+      })
+      .catch(() => {
+        document.getElementById('status-msg').textContent =
+          'Could not load scenes.json — make sure the file exists and the site is served over HTTP(S).';
+      });
+  </script>
+</body>
+</html>

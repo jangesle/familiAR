@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Viewer — FamiliAR</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--
+    Import map: pins Three.js and GaussianSplats3D to specific versions so the
+    site keeps working even when new releases ship.
+
+    To upgrade: bump both version numbers together and test on a headset.
+    GaussianSplats3D peer-dep: three r160–r175
+  -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.module.min.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.168.0/examples/jsm/",
+      "@mkkellogg/gaussian-splats-3d": "https://cdn.jsdelivr.net/npm/@mkkellogg/gaussian-splats-3d@0.4.4/build/gaussian-splats-3d.module.min.js"
+    }
+  }
+  </script>
+</head>
+<body class="viewer-page">
+
+  <!-- Loading overlay -->
+  <div id="loading-overlay">
+    <div class="spinner"></div>
+    <span id="load-label">Loading scene…</span>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+    <span id="load-pct"></span>
+  </div>
+
+  <!-- Error panel (hidden by default) -->
+  <div id="error-msg" style="display:none">
+    <h2>Could not load scene</h2>
+    <p id="error-detail"></p>
+    <a href="index.html">← Back to gallery</a>
+  </div>
+
+  <!-- 3-D canvas lives here -->
+  <div id="viewer-container"></div>
+
+  <!-- Persistent UI (shown after load) -->
+  <a id="back-btn" href="index.html">← Gallery</a>
+  <div id="scene-title"></div>
+  <div id="xr-buttons"></div>
+
+  <script type="module">
+    import * as GaussianSplats3D from '@mkkellogg/gaussian-splats-3d';
+    import { VRButton } from 'three/addons/webxr/VRButton.js';
+    import { ARButton } from 'three/addons/webxr/ARButton.js';
+
+    // ── 1. Parse URL param ───────────────────────────────────────────────
+    const params  = new URLSearchParams(location.search);
+    const sceneId = params.get('id');
+
+    function showError(msg) {
+      document.getElementById('loading-overlay').classList.add('hidden');
+      document.getElementById('error-detail').textContent = msg;
+      document.getElementById('error-msg').style.display = 'flex';
+    }
+
+    if (!sceneId) { showError('No scene ID in URL. Use viewer.html?id=your-scene-id'); throw 0; }
+
+    // ── 2. Load manifest ─────────────────────────────────────────────────
+    let scene;
+    try {
+      const manifest = await fetch('scenes.json').then(r => {
+        if (!r.ok) throw new Error(`scenes.json returned ${r.status}`);
+        return r.json();
+      });
+      scene = manifest.scenes.find(s => s.id === sceneId);
+      if (!scene) throw new Error(`Scene "${sceneId}" not found in scenes.json`);
+      if (manifest.title) document.title = `${scene.title} — ${manifest.title}`;
+    } catch (e) {
+      showError(e.message);
+      throw e;
+    }
+
+    document.getElementById('scene-title').textContent = scene.title;
+
+    // ── 3. Build the Viewer ──────────────────────────────────────────────
+    //
+    // sharedMemoryForWorkers: false  — GitHub Pages does not set the
+    //   Cross-Origin-Opener/Embedder-Policy headers required for
+    //   SharedArrayBuffer, so we disable it here.
+    //
+    // gpuAcceleratedSort: true  — uses the GPU to sort splats each frame,
+    //   which is much faster on headsets than CPU sorting.
+    //
+    const viewer = new GaussianSplats3D.Viewer({
+      cameraUp:              scene.cameraUp       || [0, -1, 0],
+      initialCameraPosition: scene.cameraPosition || [0, 1, 4],
+      initialCameraLookAt:   scene.cameraLookAt   || [0, 1, 0],
+      xrEnabled:             true,
+      gpuAcceleratedSort:    true,
+      sharedMemoryForWorkers: false,
+      dynamicScene:          false,
+    });
+
+    // ── 4. Load splat file ───────────────────────────────────────────────
+    const loadLabel = document.getElementById('load-label');
+    const fill      = document.getElementById('progress-fill');
+    const pct       = document.getElementById('load-pct');
+
+    try {
+      await viewer.addSplatScene(scene.file, {
+        progressiveLoad: true,
+        onProgress(percentComplete, percentMessage, loaderStatus) {
+          const p = Math.round(percentComplete);
+          fill.style.width = `${p}%`;
+          pct.textContent  = `${p}%`;
+          if (loaderStatus === 1) loadLabel.textContent = 'Sorting splats…';
+        },
+      });
+    } catch (e) {
+      showError(
+        `Failed to load "${scene.file}". ` +
+        `Check that the .splat file is in the correct folder and try refreshing. (${e.message})`
+      );
+      throw e;
+    }
+
+    // ── 5. Start rendering ───────────────────────────────────────────────
+    viewer.start();
+
+    // Hide loading overlay
+    document.getElementById('loading-overlay').classList.add('hidden');
+
+    // ── 6. Attach XR buttons ─────────────────────────────────────────────
+    //
+    // We add buttons only for session types the browser actually supports,
+    // so you get "Enter VR" on Quest / Samsung XR and "Enter AR" on devices
+    // with passthrough (Quest 3, some phones).
+    //
+    const xrDiv    = document.getElementById('xr-buttons');
+    const renderer = viewer.renderer; // three.js WebGLRenderer
+
+    if (renderer && 'xr' in navigator) {
+      const [vrOk, arOk] = await Promise.all([
+        navigator.xr.isSessionSupported('immersive-vr').catch(() => false),
+        navigator.xr.isSessionSupported('immersive-ar').catch(() => false),
+      ]);
+
+      if (vrOk) {
+        // VRButton manages the session lifecycle and toggles its own label
+        const btn = VRButton.createButton(renderer);
+        btn.className = 'xr-btn';
+        xrDiv.appendChild(btn);
+      }
+
+      if (arOk) {
+        const btn = ARButton.createButton(renderer, {
+          optionalFeatures: ['local-floor', 'bounded-floor', 'hand-tracking', 'layers'],
+        });
+        btn.className = 'xr-btn';
+        xrDiv.appendChild(btn);
+      }
+
+      if (!vrOk && !arOk) {
+        // Informational — not an error
+        const info = document.createElement('span');
+        info.style.cssText = 'color:#7070a0;font-size:0.8rem;padding:0.5rem 1rem';
+        info.textContent = 'WebXR not available in this browser';
+        xrDiv.appendChild(info);
+      }
+    }
+  </script>
+</body>
+</html>
