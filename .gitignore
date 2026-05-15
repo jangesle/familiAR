@@ -1,0 +1,8 @@
+# Luma proprietary format — export as .splat instead
+assets/scenes/*.luma
+
+# Large splat/point-cloud files — host externally once the collection grows
+# (comment these out if you want to keep files in the repo for now)
+# assets/scenes/*.splat
+# assets/scenes/*.ply
+# assets/scenes/*.ksplat
