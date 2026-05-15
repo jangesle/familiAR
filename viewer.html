@@ -9,25 +9,22 @@
   <link rel="stylesheet" href="css/style.css">
 
   <!--
-    Import map: pins Three.js and GaussianSplats3D to specific versions so the
-    site keeps working even when new releases ship.
-
-    To upgrade: bump both version numbers together and test on a headset.
-    GaussianSplats3D peer-dep: three r160–r175
+    luma-web: Luma AI's Three.js renderer — supports .luma files and Luma CDN URLs.
+    esm.sh resolves luma-web's "three" peer-dep through the importmap,
+    ensuring both share the same Three.js instance (required for XR to work).
   -->
   <script type="importmap">
   {
     "imports": {
-      "three": "https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.module.min.js",
-      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.168.0/examples/jsm/",
-      "@mkkellogg/gaussian-splats-3d": "https://cdn.jsdelivr.net/npm/@mkkellogg/gaussian-splats-3d@0.4.4/build/gaussian-splats-3d.module.min.js"
+      "three":          "https://esm.sh/three@0.168.0",
+      "three/addons/":  "https://esm.sh/three@0.168.0/examples/jsm/",
+      "luma-web":       "https://esm.sh/luma-web?deps=three@0.168.0"
     }
   }
   </script>
 </head>
 <body class="viewer-page">
 
-  <!-- Loading overlay -->
   <div id="loading-overlay">
     <div class="spinner"></div>
     <span id="load-label">Loading scene…</span>
@@ -35,120 +32,123 @@
     <span id="load-pct"></span>
   </div>
 
-  <!-- Error panel (hidden by default) -->
   <div id="error-msg" style="display:none">
     <h2>Could not load scene</h2>
     <p id="error-detail"></p>
     <a href="index.html">← Back to gallery</a>
   </div>
 
-  <!-- 3-D canvas lives here -->
   <div id="viewer-container"></div>
 
-  <!-- Persistent UI (shown after load) -->
   <a id="back-btn" href="index.html">← Gallery</a>
   <div id="scene-title"></div>
   <div id="xr-buttons"></div>
 
   <script type="module">
-    import * as GaussianSplats3D from '@mkkellogg/gaussian-splats-3d';
-    import { VRButton } from 'three/addons/webxr/VRButton.js';
-    import { ARButton } from 'three/addons/webxr/ARButton.js';
+    import * as THREE               from 'three';
+    import { LumaSplatsThree }      from 'luma-web';
+    import { VRButton }             from 'three/addons/webxr/VRButton.js';
+    import { ARButton }             from 'three/addons/webxr/ARButton.js';
+    import { OrbitControls }        from 'three/addons/controls/OrbitControls.js';
 
-    // ── 1. Parse URL param ───────────────────────────────────────────────
-    const params  = new URLSearchParams(location.search);
-    const sceneId = params.get('id');
+    // ── helpers ──────────────────────────────────────────────────────────
+    const overlay   = document.getElementById('loading-overlay');
+    const xrDiv     = document.getElementById('xr-buttons');
 
     function showError(msg) {
-      document.getElementById('loading-overlay').classList.add('hidden');
+      overlay.classList.add('hidden');
       document.getElementById('error-detail').textContent = msg;
       document.getElementById('error-msg').style.display = 'flex';
     }
 
-    if (!sceneId) { showError('No scene ID in URL. Use viewer.html?id=your-scene-id'); throw 0; }
+    function hideLoading() {
+      overlay.classList.add('hidden');
+    }
 
-    // ── 2. Load manifest ─────────────────────────────────────────────────
-    let scene;
+    // ── 1. Resolve scene from URL param ───────────────────────────────────
+    const sceneId = new URLSearchParams(location.search).get('id');
+    if (!sceneId) { showError('No ?id= in URL.'); throw 0; }
+
+    let sceneData;
     try {
       const manifest = await fetch('scenes.json').then(r => {
-        if (!r.ok) throw new Error(`scenes.json returned ${r.status}`);
+        if (!r.ok) throw new Error(`scenes.json → HTTP ${r.status}`);
         return r.json();
       });
-      scene = manifest.scenes.find(s => s.id === sceneId);
-      if (!scene) throw new Error(`Scene "${sceneId}" not found in scenes.json`);
-      if (manifest.title) document.title = `${scene.title} — ${manifest.title}`;
-    } catch (e) {
-      showError(e.message);
-      throw e;
-    }
+      sceneData = manifest.scenes.find(s => s.id === sceneId);
+      if (!sceneData) throw new Error(`Scene "${sceneId}" not found in scenes.json`);
+      if (manifest.title) document.title = `${sceneData.title} — ${manifest.title}`;
+    } catch (e) { showError(e.message); throw e; }
 
-    document.getElementById('scene-title').textContent = scene.title;
+    document.getElementById('scene-title').textContent = sceneData.title;
 
-    // ── 3. Build the Viewer ──────────────────────────────────────────────
+    // ── 2. Three.js scene ─────────────────────────────────────────────────
+    const threeScene = new THREE.Scene();
+    threeScene.background = new THREE.Color(0x0a0a0f);
+
+    const camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 0.01, 1000);
+    const camPos = sceneData.cameraPosition || [0, 0, 4];
+    const camLook = sceneData.cameraLookAt  || [0, 0, 0];
+    camera.position.set(...camPos);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+    renderer.setSize(innerWidth, innerHeight);
+    renderer.xr.enabled = true;
+    document.getElementById('viewer-container').appendChild(renderer.domElement);
+
+    // ── 3. Orbit controls (desktop / non-XR) ─────────────────────────────
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.target.set(...camLook);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
+    controls.update();
+
+    renderer.xr.addEventListener('sessionstart', () => { controls.enabled = false; });
+    renderer.xr.addEventListener('sessionend',   () => { controls.enabled = true; });
+
+    // ── 4. Luma splat ─────────────────────────────────────────────────────
     //
-    // sharedMemoryForWorkers: false  — GitHub Pages does not set the
-    //   Cross-Origin-Opener/Embedder-Policy headers required for
-    //   SharedArrayBuffer, so we disable it here.
+    // source can be:
+    //   - a Luma CDN URL:  "https://lumalabs.ai/capture/uuid-here"
+    //   - a local path:    "assets/scenes/my-scene.luma"
+    //     (resolved to an absolute URL so luma-web can fetch it)
     //
-    // gpuAcceleratedSort: true  — uses the GPU to sort splats each frame,
-    //   which is much faster on headsets than CPU sorting.
-    //
-    const viewer = new GaussianSplats3D.Viewer({
-      cameraUp:              scene.cameraUp       || [0, -1, 0],
-      initialCameraPosition: scene.cameraPosition || [0, 1, 4],
-      initialCameraLookAt:   scene.cameraLookAt   || [0, 1, 0],
-      xrEnabled:             true,
-      gpuAcceleratedSort:    true,
-      sharedMemoryForWorkers: false,
-      dynamicScene:          false,
+    const rawSource = sceneData.source;
+    if (!rawSource) { showError('"source" is missing in scenes.json for this scene.'); throw 0; }
+
+    const source = rawSource.startsWith('http')
+      ? rawSource
+      : new URL(rawSource, location.href).href;
+
+    const splat = new LumaSplatsThree({ source });
+    threeScene.add(splat);
+
+    // ── 5. Render loop ────────────────────────────────────────────────────
+    // Hide loading after the first rendered frames — luma-web streams
+    // progressively so the scene will appear quickly even on large files.
+    let frameCount = 0;
+    renderer.setAnimationLoop(() => {
+      controls.update();
+      renderer.render(threeScene, camera);
+      if (++frameCount === 5) hideLoading();
     });
 
-    // ── 4. Load splat file ───────────────────────────────────────────────
-    const loadLabel = document.getElementById('load-label');
-    const fill      = document.getElementById('progress-fill');
-    const pct       = document.getElementById('load-pct');
+    // ── 6. Resize ─────────────────────────────────────────────────────────
+    window.addEventListener('resize', () => {
+      camera.aspect = innerWidth / innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(innerWidth, innerHeight);
+    });
 
-    try {
-      await viewer.addSplatScene(scene.file, {
-        progressiveLoad: true,
-        onProgress(percentComplete, percentMessage, loaderStatus) {
-          const p = Math.round(percentComplete);
-          fill.style.width = `${p}%`;
-          pct.textContent  = `${p}%`;
-          if (loaderStatus === 1) loadLabel.textContent = 'Sorting splats…';
-        },
-      });
-    } catch (e) {
-      showError(
-        `Failed to load "${scene.file}". ` +
-        `Check that the .splat file is in the correct folder and try refreshing. (${e.message})`
-      );
-      throw e;
-    }
-
-    // ── 5. Start rendering ───────────────────────────────────────────────
-    viewer.start();
-
-    // Hide loading overlay
-    document.getElementById('loading-overlay').classList.add('hidden');
-
-    // ── 6. Attach XR buttons ─────────────────────────────────────────────
-    //
-    // We add buttons only for session types the browser actually supports,
-    // so you get "Enter VR" on Quest / Samsung XR and "Enter AR" on devices
-    // with passthrough (Quest 3, some phones).
-    //
-    const xrDiv    = document.getElementById('xr-buttons');
-    const renderer = viewer.renderer; // three.js WebGLRenderer
-
-    if (renderer && 'xr' in navigator) {
+    // ── 7. XR buttons ─────────────────────────────────────────────────────
+    if ('xr' in navigator) {
       const [vrOk, arOk] = await Promise.all([
         navigator.xr.isSessionSupported('immersive-vr').catch(() => false),
         navigator.xr.isSessionSupported('immersive-ar').catch(() => false),
       ]);
 
       if (vrOk) {
-        // VRButton manages the session lifecycle and toggles its own label
         const btn = VRButton.createButton(renderer);
         btn.className = 'xr-btn';
         xrDiv.appendChild(btn);
@@ -163,10 +163,9 @@
       }
 
       if (!vrOk && !arOk) {
-        // Informational — not an error
         const info = document.createElement('span');
         info.style.cssText = 'color:#7070a0;font-size:0.8rem;padding:0.5rem 1rem';
-        info.textContent = 'WebXR not available in this browser';
+        info.textContent = 'WebXR not supported in this browser';
         xrDiv.appendChild(info);
       }
     }

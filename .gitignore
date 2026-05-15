@@ -1,8 +1,6 @@
-# Luma proprietary format — export as .splat instead
-assets/scenes/*.luma
+# .luma files are tracked — GitHub Pages serves them directly.
+# GitHub's per-file limit is 100 MB; files 50–100 MB get a warning but still push.
+# If your captures exceed 100 MB, host them externally and use a full URL in source.
 
-# Large splat/point-cloud files — host externally once the collection grows
-# (comment these out if you want to keep files in the repo for now)
-# assets/scenes/*.splat
-# assets/scenes/*.ply
-# assets/scenes/*.ksplat
+# macOS
+.DS_Store

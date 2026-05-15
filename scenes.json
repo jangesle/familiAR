@@ -3,15 +3,14 @@
   "subtitle": "Gaussian Splat Gallery",
   "scenes": [
     {
-      "id": "example",
-      "title": "Example Scene",
-      "description": "Replace this with your Luma AI export",
-      "file": "assets/scenes/example.splat",
+      "id": "chihuly",
+      "title": "Chihuly Green Volume",
+      "description": "",
+      "source": "assets/scenes/Chihuli_green_volume_model.luma",
       "thumbnail": "",
       "date": "2026-05-15",
-      "cameraUp": [0, -1, 0],
-      "cameraPosition": [0, 1, 4],
-      "cameraLookAt": [0, 1, 0]
+      "cameraPosition": [0, 0, 4],
+      "cameraLookAt": [0, 0, 0]
     }
   ]
 }
