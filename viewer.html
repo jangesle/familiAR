@@ -112,8 +112,20 @@
     controls.dampingFactor = 0.05;
     controls.update();
 
-    renderer.xr.addEventListener('sessionstart', () => { controls.enabled = false; });
-    renderer.xr.addEventListener('sessionend',   () => { controls.enabled = true; });
+    const viewerUI = [
+      document.getElementById('viewer-container'),
+      document.getElementById('back-btn'),
+      document.getElementById('scene-title'),
+    ];
+
+    renderer.xr.addEventListener('sessionstart', () => {
+      controls.enabled = false;
+      viewerUI.forEach(el => { el.style.visibility = 'hidden'; });
+    });
+    renderer.xr.addEventListener('sessionend', () => {
+      controls.enabled = true;
+      viewerUI.forEach(el => { el.style.visibility = ''; });
+    });
 
     // ── 4. Luma splat ────────────────────────────────────────────────────
     const rawSource = sceneData.source;
