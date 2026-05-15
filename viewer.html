@@ -46,6 +46,13 @@
 
   <div id="viewer-container"></div>
 
+  <div id="auto-xr-overlay" style="display:none">
+    <div id="auto-xr-inner">
+      <div class="auto-xr-icon">VR</div>
+      <p>Tap anywhere to enter VR</p>
+    </div>
+  </div>
+
   <a id="back-btn" href="index.html">← Gallery</a>
   <div id="scene-title"></div>
   <div id="xr-buttons"></div>
@@ -58,8 +65,11 @@
     import { OrbitControls }     from 'three/addons/controls/OrbitControls.js';
 
     // ── helpers ──────────────────────────────────────────────────────────
-    const overlay = document.getElementById('loading-overlay');
-    const xrDiv   = document.getElementById('xr-buttons');
+    const overlay     = document.getElementById('loading-overlay');
+    const xrDiv       = document.getElementById('xr-buttons');
+    const autoXrEl    = document.getElementById('auto-xr-overlay');
+    const params      = new URLSearchParams(location.search);
+    const autoXR      = params.get('autoXR');
 
     function showError(msg) {
       overlay.classList.add('hidden');
@@ -70,13 +80,29 @@
 
     function hideLoading() {
       overlay.classList.add('hidden');
+      if (autoXR === 'vr') showAutoXR();
+    }
+
+    function showAutoXR() {
+      autoXrEl.style.display = 'flex';
+      autoXrEl.addEventListener('click', async () => {
+        autoXrEl.style.display = 'none';
+        try {
+          const session = await navigator.xr.requestSession('immersive-vr', {
+            optionalFeatures: ['local-floor', 'bounded-floor', 'hand-tracking', 'layers'],
+          });
+          renderer.xr.setSession(session);
+        } catch (e) {
+          console.warn('[FamiliAR] Auto-XR failed:', e);
+        }
+      }, { once: true });
     }
 
     // Surface any unhandled promise rejections visibly rather than silently
     window.addEventListener('unhandledrejection', e => showError(String(e.reason)));
 
     // ── 1. Scene manifest ────────────────────────────────────────────────
-    const sceneId = new URLSearchParams(location.search).get('id');
+    const sceneId = params.get('id');
     if (!sceneId) { showError('No ?id= in URL.'); throw 0; }
 
     let sceneData, manifest;

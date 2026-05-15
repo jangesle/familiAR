@@ -31,10 +31,16 @@
           return;
         }
 
+        // Detect VR support once, then badge all cards
+        const vrSupported = ('xr' in navigator)
+          ? navigator.xr.isSessionSupported('immersive-vr').catch(() => false)
+          : Promise.resolve(false);
+
         gallery.innerHTML = '';
         scenes.forEach(scene => {
+          const id = encodeURIComponent(scene.id);
           const card = document.createElement('a');
-          card.href = `viewer.html?id=${encodeURIComponent(scene.id)}`;
+          card.href = `viewer.html?id=${id}`;
           card.className = 'scene-card';
           card.setAttribute('aria-label', scene.title);
 
@@ -51,6 +57,16 @@
             </div>`;
 
           gallery.appendChild(card);
+
+          vrSupported.then(ok => {
+            if (!ok) return;
+            const badge = document.createElement('a');
+            badge.href = `viewer.html?id=${id}&autoXR=vr`;
+            badge.className = 'vr-badge';
+            badge.textContent = 'VR';
+            badge.addEventListener('click', e => e.stopPropagation());
+            card.querySelector('.thumbnail').appendChild(badge);
+          });
         });
       })
       .catch(() => {
