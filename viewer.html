@@ -96,11 +96,11 @@
     const threeScene = new THREE.Scene();
     threeScene.background = new THREE.Color(0x0a0a0f);
 
-    const camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 0.01, 1000);
+    const camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 0.01, 100);
     camera.position.set(...(sceneData.cameraPosition || [0, 0, 4]));
 
-    const renderer = new THREE.WebGLRenderer({ antialias: false });
-    renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+    const renderer = new THREE.WebGLRenderer({ antialias: false, powerPreference: 'high-performance' });
+    renderer.setPixelRatio(Math.min(devicePixelRatio, 1));
     renderer.setSize(innerWidth, innerHeight);
     renderer.xr.enabled = true;
     document.getElementById('viewer-container').appendChild(renderer.domElement);
@@ -137,7 +137,7 @@
 
     let splat;
     try {
-      splat = new LumaSplatsThree({ source });
+      splat = new LumaSplatsThree({ source, loadingAnimationEnabled: false });
     } catch (e) {
       showError(`LumaSplatsThree failed to init: ${e.message}`);
       throw e;
@@ -159,7 +159,7 @@
     // ── 5. Render loop ───────────────────────────────────────────────────
     let frameCount = 0;
     renderer.setAnimationLoop(() => {
-      controls.update();
+      if (!renderer.xr.isPresenting) controls.update();
       renderer.render(threeScene, camera);
       if (++frameCount === 30) hideLoading();
     });
