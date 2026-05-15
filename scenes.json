@@ -10,7 +10,10 @@
       "thumbnail": "",
       "date": "2026-05-15",
       "cameraPosition": [0, 0, 4],
-      "cameraLookAt": [0, 0, 0]
+      "cameraLookAt": [0, 0, 0],
+      "splatScale": 1.0,
+      "splatPosition": [0, 0, 0],
+      "splatRotation": [0, 0, 0]
     }
   ]
 }

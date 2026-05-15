@@ -130,6 +130,16 @@
       showError(`LumaSplatsThree failed to init: ${e.message}`);
       throw e;
     }
+    if (sceneData.splatScale !== undefined)
+      splat.scale.setScalar(sceneData.splatScale);
+    if (sceneData.splatPosition)
+      splat.position.set(...sceneData.splatPosition);
+    if (sceneData.splatRotation)
+      splat.rotation.set(
+        THREE.MathUtils.degToRad(sceneData.splatRotation[0]),
+        THREE.MathUtils.degToRad(sceneData.splatRotation[1]),
+        THREE.MathUtils.degToRad(sceneData.splatRotation[2])
+      );
     threeScene.add(splat);
 
     // ── 5. Render loop ───────────────────────────────────────────────────
