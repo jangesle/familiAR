@@ -163,7 +163,7 @@
 
     let splat;
     try {
-      splat = new LumaSplatsThree({ source, loadingAnimationEnabled: false });
+      splat = new LumaSplatsThree({ source, loadingAnimationEnabled: false, enableThreeShaderIntegration: false });
     } catch (e) {
       showError(`LumaSplatsThree failed to init: ${e.message}`);
       throw e;
