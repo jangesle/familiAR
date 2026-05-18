@@ -1,7 +1,7 @@
 {
   "title": "FamiliAR",
   "subtitle": "Gaussian Splat Gallery",
-  "defaultSplatScale": 5.0,
+  "defaultSplatScale": 5,
   "scenes": [
     {
       "id": "chihuli-green",
@@ -11,13 +11,13 @@
       "thumbnail": "https://cdn-luma.com/36df7fd1bd58eddc9074a9922c0fc0f0b6e668c8193ffb8551ccc145327bc664/Chihuli_green_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        -7.815,
+        -5.662,
+        8.05
       ],
       "cameraLookAt": [
-        0,
-        0,
+        3.206,
+        -4.48,
         0
       ],
       "splatPosition": [
@@ -29,7 +29,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "splatScale": 2.65
     },
     {
       "id": "higuli2",
@@ -95,14 +96,14 @@
       "thumbnail": "https://cdn-luma.com/2c532aa2f9cbccf8ff950a2c13024b0128e16b634699ed69bc1060b4f4176528/Foshan_yard_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        4.85,
+        -1.711,
+        -6.977
       ],
       "cameraLookAt": [
-        0,
-        0,
-        0
+        0.121,
+        0.053,
+        0.029
       ],
       "splatPosition": [
         0,
@@ -113,7 +114,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "splatScale": 5
     },
     {
       "id": "foshan-bench",
@@ -151,14 +153,14 @@
       "thumbnail": "https://cdn-luma.com/042ed97325622d51e67373664f5023016fefc6dd1164aaa80e0c52485cff771c/Wishing_tree_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        4.075,
+        -1.23,
+        8.177
       ],
       "cameraLookAt": [
-        0,
-        0,
-        0
+        0.172,
+        1.151,
+        0.323
       ],
       "splatPosition": [
         0,
@@ -169,7 +171,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "splatScale": 1.8
     },
     {
       "id": "foshan3",
@@ -263,14 +266,14 @@
       "thumbnail": "https://cdn-luma.com/b6ccd1bccdbdc677065270135d38b2364716201871ddf7f07c02ae09677604cf/Baiyun_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        4.649,
+        -2.854,
+        -15.581
       ],
       "cameraLookAt": [
-        0,
-        0,
-        0
+        -2.547,
+        -3.41,
+        -3.097
       ],
       "splatPosition": [
         0,
@@ -281,7 +284,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "splatScale": 6.15
     },
     {
       "id": "samara",
@@ -291,14 +295,14 @@
       "thumbnail": "https://cdn-luma.com/934e65c2429e3075b784354ee128cc31f931d25f783423ce843c08d67176c136/Samara_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        3.408,
+        -0.677,
+        -8.134
       ],
       "cameraLookAt": [
-        0,
-        0,
-        0
+        -0.005,
+        -0.457,
+        -1.133
       ],
       "splatPosition": [
         0,
@@ -309,7 +313,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "splatScale": 1.8
     },
     {
       "id": "gui-temple",
@@ -1075,14 +1080,14 @@
       "thumbnail": "https://cdn-luma.com/7edc6f129589ce42100980a2edb3c6675feb304d8023cfab2e2e16d2b4a51de9/Atlas_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        21.526,
+        2.661,
+        -2.981
       ],
       "cameraLookAt": [
-        0,
-        0,
-        0
+        0.621,
+        0.091,
+        2.384
       ],
       "splatPosition": [
         0,
@@ -1093,7 +1098,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "splatScale": 5
     },
     {
       "id": "tinguely-formula",
@@ -1131,14 +1137,14 @@
       "thumbnail": "https://cdn-luma.com/ca1e99820bdb73466c93c681b8651596eaa60fcaa9db0e407ea6eff31444fc71/Park_guell_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        0.263,
+        -2.804,
+        -3.513
       ],
       "cameraLookAt": [
-        0,
-        0,
-        0
+        -3.285,
+        -3.271,
+        -0.52
       ],
       "splatPosition": [
         0,
@@ -1149,7 +1155,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "splatScale": 5
     },
     {
       "id": "barcelona-church",
@@ -1187,14 +1194,14 @@
       "thumbnail": "https://cdn-luma.com/ff0fa60a7a909d598cc75ce4995eb45e08daf3fcd0fe5cdf11380860c44cebd4/Cave_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        1.905,
+        -0.468,
+        0.405
       ],
       "cameraLookAt": [
-        0,
-        0,
-        0
+        -1.666,
+        -0.954,
+        -0.801
       ],
       "splatPosition": [
         0,
@@ -1205,7 +1212,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "splatScale": 0.75
     },
     {
       "id": "grave",
@@ -1439,9 +1447,9 @@
       "thumbnail": "https://cdn-luma.com/e551e94c6742d1f89ac4f03d74c6b33ea709189c71c3331526b03e2bfb6a5d75/Pylvas_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        -3.107,
+        1.363,
+        4.984
       ],
       "cameraLookAt": [
         0,
@@ -1457,7 +1465,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "splatScale": 1.05
     },
     {
       "id": "vanhis",
@@ -1495,9 +1504,9 @@
       "thumbnail": "https://cdn-luma.com/60bb2c602bc525b97c732caad3c65b0d69fd7d6dd252ae865fb262538f513eb7/Muumimaailma_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        10.132,
+        -1.842,
+        -10.094
       ],
       "cameraLookAt": [
         0,
@@ -2055,14 +2064,14 @@
       "thumbnail": "https://cdn-luma.com/b49e934461c1d61a434e21b06f6c853d516b8eaf06ed371b79509030d631f578/Plus2_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        1.095,
+        0.296,
+        -2.879
       ],
       "cameraLookAt": [
-        0,
-        0,
-        0
+        0.236,
+        0.275,
+        0.095
       ],
       "splatPosition": [
         0,
@@ -2073,7 +2082,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "splatScale": 0.7
     },
     {
       "id": "ice-block",
@@ -2139,9 +2149,9 @@
       "thumbnail": "https://cdn-luma.com/f566b9cda9e452ccb89b7c74bd1a2bced25648774097f15ed3cab7f245ca04cb/Tenjin_yama_thumb.jpg",
       "date": "2026-05-15",
       "cameraPosition": [
-        0,
-        0,
-        4
+        -7.344,
+        0.038,
+        3.653
       ],
       "cameraLookAt": [
         0,

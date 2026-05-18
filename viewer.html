@@ -7,6 +7,33 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>Viewer — FamiliAR</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    #edit-panel {
+      position: fixed; top: 1rem; right: 1rem;
+      background: rgba(8,8,18,0.92); border: 1px solid #334;
+      border-radius: 8px; padding: 1rem; color: #ccd;
+      font-family: monospace; font-size: 0.78rem; width: 230px;
+      z-index: 100; backdrop-filter: blur(4px);
+    }
+    #edit-panel h3 { margin: 0 0 0.75rem; color: #8af; font-size: 0.8rem; letter-spacing: 0.05em; }
+    .ep-section { margin-bottom: 0.8rem; }
+    .ep-label { color: #8af; margin-bottom: 0.25rem; display: block; }
+    .ep-row { display: flex; gap: 0.5rem; align-items: center; }
+    #edit-panel input[type=range] { flex: 1; accent-color: #08f; }
+    #edit-panel input[type=number] {
+      width: 58px; background: #111; color: #ccd;
+      border: 1px solid #334; border-radius: 3px; padding: 2px 4px;
+    }
+    .ep-btn {
+      background: #1a1a2e; color: #ccd; border: 1px solid #445;
+      border-radius: 4px; padding: 0.3rem 0.65rem; cursor: pointer;
+      font-size: 0.75rem; font-family: monospace;
+    }
+    .ep-btn:hover { background: #252540; }
+    .ep-btn.active { border-color: #0ff; color: #0ff; }
+    #cam-readout { color: #9ab; font-size: 0.7rem; line-height: 1.6; white-space: pre; }
+    #save-status { color: #4f4; font-size: 0.7rem; margin-top: 0.3rem; min-height: 1.2em; }
+  </style>
 
   <!--
     three@0.157.2 matches luma-web's peer dependency ("^0.157.0").
@@ -57,6 +84,31 @@
   <div id="scene-title"></div>
   <div id="xr-buttons"></div>
 
+  <div id="edit-panel" style="display:none">
+    <h3>EDIT MODE</h3>
+    <div class="ep-section">
+      <span class="ep-label">Splat scale: <span id="scale-val">—</span></span>
+      <div class="ep-row">
+        <input type="range" id="scale-slider" min="0.1" max="20" step="0.05">
+        <input type="number" id="scale-input" min="0.1" max="20" step="0.05">
+      </div>
+    </div>
+    <div class="ep-section">
+      <button class="ep-btn" id="ref-toggle">Show 1.8 m figure</button>
+    </div>
+    <div class="ep-section">
+      <span class="ep-label">Camera (metres)</span>
+      <div id="cam-readout">pos  —\nlook —</div>
+    </div>
+    <div class="ep-section">
+      <div class="ep-row">
+        <button class="ep-btn" id="save-camera">Save camera</button>
+        <button class="ep-btn" id="save-scale">Save scale</button>
+      </div>
+      <div id="save-status"></div>
+    </div>
+  </div>
+
   <script type="module">
     import * as THREE            from 'three';
     import { LumaSplatsThree }   from '@lumaai/luma-web';
@@ -70,6 +122,8 @@
     const autoXrEl    = document.getElementById('auto-xr-overlay');
     const params      = new URLSearchParams(location.search);
     const autoXR      = params.get('autoXR');
+    const editMode    = params.has('edit');
+    let   refFigure   = null;
 
     function showError(msg) {
       overlay.classList.add('hidden');
@@ -101,6 +155,58 @@
     // Surface any unhandled promise rejections visibly rather than silently
     window.addEventListener('unhandledrejection', e => showError(String(e.reason)));
 
+    function createReferenceFigure() {
+      const v = [];
+      const seg = (x0,y0,z0, x1,y1,z1) => v.push(x0,y0,z0, x1,y1,z1);
+
+      // Head circle
+      const N=16, hY=1.65, hR=0.115;
+      for (let i=0;i<N;i++) {
+        const a0=(i/N)*Math.PI*2, a1=((i+1)/N)*Math.PI*2;
+        v.push(Math.cos(a0)*hR, hY+Math.sin(a0)*hR, 0,
+               Math.cos(a1)*hR, hY+Math.sin(a1)*hR, 0);
+      }
+      // Neck, shoulders, arms, torso, hips, legs
+      seg( 0,    1.53, 0,   0,    1.48, 0);
+      seg(-0.22, 1.48, 0,   0.22, 1.48, 0);
+      seg(-0.22, 1.48, 0,  -0.19, 0.98, 0);
+      seg( 0.22, 1.48, 0,   0.19, 0.98, 0);
+      seg( 0,    1.48, 0,   0,    0.88, 0);
+      seg(-0.15, 0.88, 0,   0.15, 0.88, 0);
+      seg(-0.07, 0.88, 0,  -0.11, 0,    0);
+      seg( 0.07, 0.88, 0,   0.11, 0,    0);
+      // Foot cross (ground marker)
+      seg(-0.12, 0, 0,  0.12, 0, 0);
+      seg(  0,   0,-0.12,  0, 0, 0.12);
+      // Height ruler (right side)
+      seg(0.32, 0, 0,  0.32, 1.8, 0);
+      seg(0.29, 0, 0,  0.35, 0,   0);
+      seg(0.29,1.8, 0, 0.35, 1.8, 0);
+
+      const geo = new THREE.BufferGeometry();
+      geo.setAttribute('position', new THREE.Float32BufferAttribute(v, 3));
+      const mat = new THREE.LineBasicMaterial({ color: 0x00ffff });
+      const lines = new THREE.LineSegments(geo, mat);
+
+      // "1.8 m" sprite label
+      const canvas = document.createElement('canvas');
+      canvas.width = 128; canvas.height = 40;
+      const ctx = canvas.getContext('2d');
+      ctx.fillStyle = '#00ffff';
+      ctx.font = 'bold 26px monospace';
+      ctx.fillText('1.8 m', 4, 30);
+      const sprite = new THREE.Sprite(
+        new THREE.SpriteMaterial({ map: new THREE.CanvasTexture(canvas) })
+      );
+      sprite.position.set(0.62, 1.8, 0);
+      sprite.scale.set(0.45, 0.14, 1);
+
+      const group = new THREE.Group();
+      group.add(lines, sprite);
+      group.visible = false;
+      return group;
+    }
+
     // ── 1. Scene manifest ────────────────────────────────────────────────
     const sceneId = params.get('id');
     if (!sceneId) { showError('No ?id= in URL.'); throw 0; }
@@ -119,8 +225,9 @@
     document.getElementById('scene-title').textContent = sceneData.title;
 
     // ── 2. Three.js renderer ─────────────────────────────────────────────
-    const threeScene = new THREE.Scene();
+    const threeScene   = new THREE.Scene();
     threeScene.background = new THREE.Color(0x0a0a0f);
+    const overlayScene = new THREE.Scene();
 
     const camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 0.01, 500);
     camera.position.set(...(sceneData.cameraPosition || [0, 0, 4]));
@@ -182,11 +289,97 @@
       );
     threeScene.add(splat);
 
+    // ── 4b. Edit mode ────────────────────────────────────────────────────
+    if (editMode) {
+      document.getElementById('edit-panel').style.display = 'block';
+
+      const initScale = effectiveScale;
+      const scaleSlider = document.getElementById('scale-slider');
+      const scaleInput  = document.getElementById('scale-input');
+      scaleSlider.value = initScale;
+      scaleInput.value  = initScale;
+      document.getElementById('scale-val').textContent = initScale.toFixed(2);
+
+      function applyScale(v) {
+        v = Math.max(0.1, Math.min(20, +v));
+        splat.scale.setScalar(v);
+        scaleSlider.value = v;
+        scaleInput.value  = v;
+        document.getElementById('scale-val').textContent = v.toFixed(2);
+      }
+      scaleSlider.addEventListener('input',  () => applyScale(scaleSlider.value));
+      scaleInput.addEventListener('change',  () => applyScale(scaleInput.value));
+
+      // Reference figure — lives in a separate overlay scene
+      refFigure = createReferenceFigure();
+      overlayScene.add(refFigure);
+
+      const refBtn = document.getElementById('ref-toggle');
+      refBtn.addEventListener('click', () => {
+        const show = !refFigure.visible;
+        if (show) refFigure.position.copy(controls.target);
+        refFigure.visible = show;
+        refBtn.classList.toggle('active', show);
+        refBtn.textContent = show ? 'Hide 1.8 m figure' : 'Show 1.8 m figure';
+      });
+
+      // Save helpers
+      const saveStatus = document.getElementById('save-status');
+      async function saveFields(fields) {
+        saveStatus.textContent = 'Saving…';
+        try {
+          const r = await fetch(`/api/scene/${encodeURIComponent(sceneId)}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(fields),
+          });
+          if (!r.ok) throw new Error(`HTTP ${r.status}`);
+          saveStatus.textContent = 'Saved ✓';
+          setTimeout(() => { saveStatus.textContent = ''; }, 2000);
+        } catch (e) {
+          saveStatus.textContent = `Error: ${e.message}`;
+        }
+      }
+
+      document.getElementById('save-camera').addEventListener('click', () => {
+        const p = camera.position, t = controls.target;
+        saveFields({
+          cameraPosition: [+p.x.toFixed(3), +p.y.toFixed(3), +p.z.toFixed(3)],
+          cameraLookAt:   [+t.x.toFixed(3), +t.y.toFixed(3), +t.z.toFixed(3)],
+        });
+      });
+
+      document.getElementById('save-scale').addEventListener('click', () => {
+        saveFields({ splatScale: +parseFloat(scaleSlider.value).toFixed(3) });
+      });
+    }
+
     // ── 5. Render loop ───────────────────────────────────────────────────
     let frameCount = 0;
+    const camReadout = document.getElementById('cam-readout');
     renderer.setAnimationLoop(() => {
-      if (!renderer.xr.isPresenting) controls.update();
+      if (!renderer.xr.isPresenting) {
+        controls.update();
+        if (editMode) {
+          if (refFigure && refFigure.visible) {
+            refFigure.rotation.y = Math.atan2(
+              camera.position.x - refFigure.position.x,
+              camera.position.z - refFigure.position.z
+            );
+          }
+          const p = camera.position, t = controls.target;
+          camReadout.textContent =
+            `pos  [${p.x.toFixed(2)}, ${p.y.toFixed(2)}, ${p.z.toFixed(2)}]\n` +
+            `look [${t.x.toFixed(2)}, ${t.y.toFixed(2)}, ${t.z.toFixed(2)}]`;
+        }
+      }
       renderer.render(threeScene, camera);
+      if (editMode && refFigure && refFigure.visible) {
+        renderer.autoClear = false;
+        renderer.clearDepth();
+        renderer.render(overlayScene, camera);
+        renderer.autoClear = true;
+      }
       if (++frameCount === 30) hideLoading();
     });
 
